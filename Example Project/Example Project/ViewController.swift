@@ -20,6 +20,7 @@ class ViewController: UIViewController {
 	@IBAction func btnPressed(_ sender:UIButton){
 		//HomeViewController.instantiateFromStoryboard()
 		let vouchMana = VouchManager()
+		
 		 vouchMana.getVouchNavigaionController(unique_param: "923351134885",token: "1#Jf@dJ3%e8O}qQYs{DS", completionHandler: {success,NavCon,errorDes in
 			if success{
 				if let nav = NavCon{
