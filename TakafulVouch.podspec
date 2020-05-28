@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
  
 
   spec.name         = "TakafulVouch"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "vouch pod for takaful"
   spec.description  = "Vouch framework for takaful . presented by shairjeel ahmed"
   spec.homepage     = "https://github.com/sharjeelahmed/TakafulVouch-sdk"
