@@ -498,7 +498,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sd-Ll-Y3A">
-                                        <rect key="frame" x="319" y="141" width="49" height="37"/>
+                                        <rect key="frame" x="343.5" y="156" width="24.5" height="22"/>
                                         <state key="normal" image="camera1"/>
                                         <connections>
                                             <action selector="openCam:" destination="Yqs-ol-M2L" eventType="touchUpInside" id="NOL-EC-QtO"/>
@@ -712,7 +712,7 @@
                                                             </constraints>
                                                         </view>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightarrow" translatesAutoresizingMaskIntoConstraints="NO" id="hTO-qd-RK2">
-                                                            <rect key="frame" x="348" y="50.5" width="15" height="60"/>
+                                                            <rect key="frame" x="348" y="65.5" width="15" height="30"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="15" id="SKH-Ph-lFS"/>
                                                             </constraints>
@@ -823,7 +823,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Eg-90-B6H">
-                                        <rect key="frame" x="323" y="-6" width="46" height="46"/>
+                                        <rect key="frame" x="323" y="5.5" width="23" height="23"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="0Eg-90-B6H" secondAttribute="height" multiplier="1:1" id="Fvz-KT-151"/>
@@ -1206,11 +1206,11 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="235"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vouch_pso_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Sgi-h8-FY3">
-                                                    <rect key="frame" x="5" y="-10.5" width="256" height="256"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vouch_pso_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Sgi-h8-FY3">
+                                                    <rect key="frame" x="5" y="65.5" width="120.5" height="104.5"/>
                                                 </imageView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vouch365" translatesAutoresizingMaskIntoConstraints="NO" id="OD6-av-fKU">
-                                                    <rect key="frame" x="-63" y="18.5" width="428" height="198"/>
+                                                    <rect key="frame" x="150.99999999999997" y="68" width="214.00000000000009" height="99"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1237,7 +1237,7 @@
                                                     <rect key="frame" x="0.0" y="19" width="375" height="24"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Happily-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="e9b-zZ-puS">
-                                                            <rect key="frame" x="-136" y="0.0" width="647" height="24"/>
+                                                            <rect key="frame" x="26" y="0.0" width="323.5" height="24"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More to enjoy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSv-RH-ZeE">
                                                             <rect key="frame" x="0.0" y="0.0" width="375" height="24"/>
@@ -1277,7 +1277,7 @@
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="57e-SG-X1f">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="376" height="147.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="376" height="147.50000000000006"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                     </imageView>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_leisure" translatesAutoresizingMaskIntoConstraints="NO" id="9XY-Bb-lZb">
@@ -1433,7 +1433,7 @@
                                                     </constraints>
                                                 </view>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foward" translatesAutoresizingMaskIntoConstraints="NO" id="yt8-Tc-p4r">
-                                                    <rect key="frame" x="339" y="24" width="16" height="31"/>
+                                                    <rect key="frame" x="347" y="32" width="8" height="15.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAm-yc-Pgi">
                                                     <rect key="frame" x="84" y="29.5" width="122.5" height="14"/>
@@ -2605,17 +2605,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="529"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_fav" translatesAutoresizingMaskIntoConstraints="NO" id="Lrl-ib-wXa">
-                                        <rect key="frame" x="42" y="60.5" width="291" height="249"/>
+                                        <rect key="frame" x="115" y="122.99999999999999" width="145.5" height="124.50000000000004"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NO FAVOURTIES YET" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yU6-hO-1uk">
-                                        <rect key="frame" x="101" y="326.5" width="173" height="23"/>
+                                        <rect key="frame" x="101" y="264.5" width="173" height="23"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
                                         <color key="textColor" red="0.78039215689999997" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the start in the corner of the page of your favourite merchant to add your favourite to your list" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzG-j9-na7">
-                                        <rect key="frame" x="79" y="369.5" width="217.5" height="42.5"/>
+                                        <rect key="frame" x="79" y="307.5" width="217.5" height="42.5"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -3525,7 +3525,7 @@
                                         <rect key="frame" x="0.0" y="273.5" width="375" height="115"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="api-R7-cy0">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="115.00000000000006"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LcO-5C-sKQ">
                                                 <rect key="frame" x="8" y="8" width="359" height="46"/>
@@ -3670,7 +3670,7 @@
                                 <rect key="frame" x="0.0" y="68.5" width="375" height="115"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="WBf-re-Q5t">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="115.00000000000006"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="beM-pQ-NpA">
@@ -4188,6 +4188,6 @@
         <image name="top_btn_shadow" width="3.5" height="7"/>
         <image name="uncheck" width="16.5" height="17"/>
         <image name="vouch365" width="214" height="99.333335876464844"/>
-        <image name="vouch_pso_logo" width="128.33332824707031" height="128.33332824707031"/>
+        <image name="vouch_pso_logo" width="120.5" height="104.5"/>
     </resources>
 </document>
