@@ -3,17 +3,422 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFA6C276247FC84100433689 /* TakafulVouch.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA6C274247FC84100433689 /* TakafulVouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2653B228859D87C399AA20B /* Pods_TakafulVouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659D0F7D8EFD9413689A0709 /* Pods_TakafulVouch.framework */; };
+		DFA6C35A247FD13700433689 /* APPinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C27E247FD13700433689 /* APPinViewController.xib */; };
+		DFA6C35B247FD13700433689 /* RedeemPinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C27F247FD13700433689 /* RedeemPinView.xib */; };
+		DFA6C35C247FD13700433689 /* FriendSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C280247FD13700433689 /* FriendSearch.xib */; };
+		DFA6C35D247FD13700433689 /* SelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C281247FD13700433689 /* SelectionTableViewCell.xib */; };
+		DFA6C35E247FD13700433689 /* FilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C282247FD13700433689 /* FilterCell.xib */; };
+		DFA6C35F247FD13700433689 /* View_Profile.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C283247FD13700433689 /* View_Profile.xib */; };
+		DFA6C360247FD13700433689 /* FilterSimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C284247FD13700433689 /* FilterSimpleCell.xib */; };
+		DFA6C361247FD13700433689 /* GifLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C285247FD13700433689 /* GifLoader.xib */; };
+		DFA6C362247FD13700433689 /* ViewOffer.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C286247FD13700433689 /* ViewOffer.xib */; };
+		DFA6C363247FD13700433689 /* VSPINView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C287247FD13700433689 /* VSPINView.xib */; };
+		DFA6C364247FD13700433689 /* RedeemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C288247FD13700433689 /* RedeemView.xib */; };
+		DFA6C365247FD13700433689 /* SucessRedeemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C289247FD13700433689 /* SucessRedeemView.xib */; };
+		DFA6C366247FD13700433689 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C28C247FD13700433689 /* StorageService.swift */; };
+		DFA6C367247FD13700433689 /* VouchCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C28E247FD13700433689 /* VouchCity.swift */; };
+		DFA6C368247FD13700433689 /* VouchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C28F247FD13700433689 /* VouchUser.swift */; };
+		DFA6C369247FD13700433689 /* TakafulVouch.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA6C290247FD13700433689 /* TakafulVouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA6C36A247FD13700433689 /* APPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C292247FD13700433689 /* APPinViewController.m */; };
+		DFA6C36B247FD13700433689 /* APPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C293247FD13700433689 /* APPinView.m */; };
+		DFA6C36C247FD13700433689 /* MPGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C296247FD13700433689 /* MPGTextField.m */; };
+		DFA6C36D247FD13700433689 /* pinViewSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C298247FD13700433689 /* pinViewSelected.png */; };
+		DFA6C36E247FD13700433689 /* pinViewSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C299247FD13700433689 /* pinViewSelected@2x.png */; };
+		DFA6C36F247FD13700433689 /* pinViewUnSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C29A247FD13700433689 /* pinViewUnSelected.png */; };
+		DFA6C370247FD13700433689 /* splash_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C29B247FD13700433689 /* splash_loading.gif */; };
+		DFA6C371247FD13700433689 /* pinViewUnSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C29C247FD13700433689 /* pinViewUnSelected@2x.png */; };
+		DFA6C372247FD13700433689 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C29E247FD13700433689 /* ServiceLayer.swift */; };
+		DFA6C373247FD13700433689 /* ServiceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C29F247FD13700433689 /* ServiceWrapper.swift */; };
+		DFA6C374247FD13700433689 /* Account-Pso.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2A1247FD13700433689 /* Account-Pso.storyboard */; };
+		DFA6C375247FD13700433689 /* Login-Pso.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2A2247FD13700433689 /* Login-Pso.storyboard */; };
+		DFA6C376247FD13700433689 /* Main-Pso.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2A3247FD13700433689 /* Main-Pso.storyboard */; };
+		DFA6C377247FD13700433689 /* GIF-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2A5247FD13700433689 /* GIF-02.jpg */; };
+		DFA6C378247FD13700433689 /* GIF-16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2A6247FD13700433689 /* GIF-16.jpg */; };
+		DFA6C379247FD13700433689 /* GIF-17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2A7247FD13700433689 /* GIF-17.jpg */; };
+		DFA6C37A247FD13700433689 /* GIF-03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2A8247FD13700433689 /* GIF-03.jpg */; };
+		DFA6C37B247FD13700433689 /* GIF-29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2A9247FD13700433689 /* GIF-29.jpg */; };
+		DFA6C37C247FD13700433689 /* GIF-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2AA247FD13700433689 /* GIF-15.jpg */; };
+		DFA6C37D247FD13700433689 /* GIF-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2AB247FD13700433689 /* GIF-01.jpg */; };
+		DFA6C37E247FD13700433689 /* GIF-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2AC247FD13700433689 /* GIF-14.jpg */; };
+		DFA6C37F247FD13700433689 /* GIF-28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2AD247FD13700433689 /* GIF-28.jpg */; };
+		DFA6C380247FD13700433689 /* GIF-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2AE247FD13700433689 /* GIF-10.jpg */; };
+		DFA6C381247FD13700433689 /* GIF-04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2AF247FD13700433689 /* GIF-04.jpg */; };
+		DFA6C382247FD13700433689 /* GIF-38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B0247FD13700433689 /* GIF-38.jpg */; };
+		DFA6C383247FD13700433689 /* GIF-39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B1247FD13700433689 /* GIF-39.jpg */; };
+		DFA6C384247FD13700433689 /* GIF-05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B2247FD13700433689 /* GIF-05.jpg */; };
+		DFA6C385247FD13700433689 /* GIF-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B3247FD13700433689 /* GIF-11.jpg */; };
+		DFA6C386247FD13700433689 /* GIF-07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B4247FD13700433689 /* GIF-07.jpg */; };
+		DFA6C387247FD13700433689 /* GIF-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B5247FD13700433689 /* GIF-13.jpg */; };
+		DFA6C388247FD13700433689 /* GIF-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B6247FD13700433689 /* GIF-12.jpg */; };
+		DFA6C389247FD13700433689 /* GIF-06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B7247FD13700433689 /* GIF-06.jpg */; };
+		DFA6C38A247FD13700433689 /* GIF-48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B8247FD13700433689 /* GIF-48.jpg */; };
+		DFA6C38B247FD13700433689 /* splash11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2B9247FD13700433689 /* splash11.jpg */; };
+		DFA6C38C247FD13700433689 /* GIF-40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2BA247FD13700433689 /* GIF-40.jpg */; };
+		DFA6C38D247FD13700433689 /* GIF-41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2BB247FD13700433689 /* GIF-41.jpg */; };
+		DFA6C38E247FD13700433689 /* GIF-43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2BC247FD13700433689 /* GIF-43.jpg */; };
+		DFA6C38F247FD13700433689 /* GIF-42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2BD247FD13700433689 /* GIF-42.jpg */; };
+		DFA6C390247FD13700433689 /* GIF-46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2BE247FD13700433689 /* GIF-46.jpg */; };
+		DFA6C391247FD13700433689 /* GIF-47.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2BF247FD13700433689 /* GIF-47.jpg */; };
+		DFA6C392247FD13700433689 /* GIF-45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C0247FD13700433689 /* GIF-45.jpg */; };
+		DFA6C393247FD13700433689 /* GIF-44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C1247FD13700433689 /* GIF-44.jpg */; };
+		DFA6C394247FD13700433689 /* GIF-23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C2247FD13700433689 /* GIF-23.jpg */; };
+		DFA6C395247FD13700433689 /* GIF-37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C3247FD13700433689 /* GIF-37.jpg */; };
+		DFA6C396247FD13700433689 /* GIF-36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C4247FD13700433689 /* GIF-36.jpg */; };
+		DFA6C397247FD13700433689 /* GIF-22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C5247FD13700433689 /* GIF-22.jpg */; };
+		DFA6C398247FD13700433689 /* GIF-08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C6247FD13700433689 /* GIF-08.jpg */; };
+		DFA6C399247FD13700433689 /* GIF-34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C7247FD13700433689 /* GIF-34.jpg */; };
+		DFA6C39A247FD13700433689 /* GIF-20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C8247FD13700433689 /* GIF-20.jpg */; };
+		DFA6C39B247FD13700433689 /* GIF-21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2C9247FD13700433689 /* GIF-21.jpg */; };
+		DFA6C39C247FD13700433689 /* GIF-35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2CA247FD13700433689 /* GIF-35.jpg */; };
+		DFA6C39D247FD13700433689 /* GIF-09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2CB247FD13700433689 /* GIF-09.jpg */; };
+		DFA6C39E247FD13700433689 /* GIF-31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2CC247FD13700433689 /* GIF-31.jpg */; };
+		DFA6C39F247FD13700433689 /* GIF-25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2CD247FD13700433689 /* GIF-25.jpg */; };
+		DFA6C3A0247FD13700433689 /* GIF-19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2CE247FD13700433689 /* GIF-19.jpg */; };
+		DFA6C3A1247FD13700433689 /* GIF-18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2CF247FD13700433689 /* GIF-18.jpg */; };
+		DFA6C3A2247FD13700433689 /* GIF-24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2D0247FD13700433689 /* GIF-24.jpg */; };
+		DFA6C3A3247FD13700433689 /* GIF-30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2D1247FD13700433689 /* GIF-30.jpg */; };
+		DFA6C3A4247FD13700433689 /* GIF-26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2D2247FD13700433689 /* GIF-26.jpg */; };
+		DFA6C3A5247FD13700433689 /* GIF-32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2D3247FD13700433689 /* GIF-32.jpg */; };
+		DFA6C3A6247FD13700433689 /* GIF-33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2D4247FD13700433689 /* GIF-33.jpg */; };
+		DFA6C3A7247FD13700433689 /* GIF-27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2D5247FD13700433689 /* GIF-27.jpg */; };
+		DFA6C3A8247FD13700433689 /* A.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2D7247FD13700433689 /* A.xcassets */; };
+		DFA6C3A9247FD13700433689 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2D8247FD13700433689 /* loader.gif */; };
+		DFA6C3AA247FD13700433689 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2DA247FD13700433689 /* Offer.swift */; };
+		DFA6C3AB247FD13700433689 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2DB247FD13700433689 /* Location.swift */; };
+		DFA6C3AC247FD13700433689 /* CompanyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2DC247FD13700433689 /* CompanyDetail.swift */; };
+		DFA6C3AD247FD13700433689 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2DD247FD13700433689 /* Friend.swift */; };
+		DFA6C3AE247FD13700433689 /* Ping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2DE247FD13700433689 /* Ping.swift */; };
+		DFA6C3AF247FD13700433689 /* NotificationVeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2DF247FD13700433689 /* NotificationVeer.swift */; };
+		DFA6C3B0247FD13700433689 /* HomeSaving.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E0247FD13700433689 /* HomeSaving.swift */; };
+		DFA6C3B1247FD13700433689 /* VoucherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E1247FD13700433689 /* VoucherData.swift */; };
+		DFA6C3B2247FD13700433689 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E2247FD13700433689 /* UserProfile.swift */; };
+		DFA6C3B3247FD13700433689 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E3247FD13700433689 /* User.swift */; };
+		DFA6C3B4247FD13700433689 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E4247FD13700433689 /* Category.swift */; };
+		DFA6C3B5247FD13700433689 /* Voucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E5247FD13700433689 /* Voucher.swift */; };
+		DFA6C3B6247FD13700433689 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E6247FD13700433689 /* History.swift */; };
+		DFA6C3B7247FD13700433689 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E7247FD13700433689 /* Badge.swift */; };
+		DFA6C3B8247FD13700433689 /* Vouchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E8247FD13700433689 /* Vouchers.swift */; };
+		DFA6C3B9247FD13700433689 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2E9247FD13700433689 /* Level.swift */; };
+		DFA6C3BA247FD13700433689 /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2EA247FD13700433689 /* PopUp.swift */; };
+		DFA6C3BB247FD13700433689 /* TakafulVouch.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFA6C2EB247FD13700433689 /* TakafulVouch.plist */; };
+		DFA6C3BC247FD13700433689 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2ED247FD13700433689 /* Constants.swift */; };
+		DFA6C3BD247FD13700433689 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2EE247FD13700433689 /* Utilities.swift */; };
+		DFA6C3BE247FD13700433689 /* VSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2EF247FD13700433689 /* VSLabel.swift */; };
+		DFA6C3BF247FD13700433689 /* VSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2F0247FD13700433689 /* VSButton.swift */; };
+		DFA6C3C0247FD13700433689 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2F1247FD13700433689 /* Countries.swift */; };
+		DFA6C3C1247FD13700433689 /* UIBarButtonItem.ActionSheetPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2F2247FD13700433689 /* UIBarButtonItem.ActionSheetPicker.swift */; };
+		DFA6C3C2247FD13700433689 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2F3247FD13700433689 /* extension.swift */; };
+		DFA6C3C3247FD13700433689 /* UIColor.StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2F4247FD13700433689 /* UIColor.StyleGuide.swift */; };
+		DFA6C3C4247FD13700433689 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2F5247FD13700433689 /* String.swift */; };
+		DFA6C3C5247FD13700433689 /* FiltersArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2F6247FD13700433689 /* FiltersArray.swift */; };
+		DFA6C3C6247FD13700433689 /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2F7247FD13700433689 /* VSTextField.swift */; };
+		DFA6C3C7247FD13700433689 /* MPGTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA6C2F9247FD13700433689 /* MPGTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA6C3C8247FD13700433689 /* APPinViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA6C2FA247FD13700433689 /* APPinViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA6C3C9247FD13700433689 /* APPinView.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA6C2FB247FD13700433689 /* APPinView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA6C3CA247FD13700433689 /* Bootstraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2FC247FD13700433689 /* Bootstraper.swift */; };
+		DFA6C3CB247FD13700433689 /* PingSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2FE247FD13700433689 /* PingSentViewController.swift */; };
+		DFA6C3CC247FD13700433689 /* ItemListingMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C2FF247FD13700433689 /* ItemListingMapViewController.swift */; };
+		DFA6C3CD247FD13700433689 /* PingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C300247FD13700433689 /* PingHistoryViewController.swift */; };
+		DFA6C3CE247FD13700433689 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C301247FD13700433689 /* SearchTableViewController.swift */; };
+		DFA6C3CF247FD13700433689 /* PurchaseHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C302247FD13700433689 /* PurchaseHistoryViewController.swift */; };
+		DFA6C3D0247FD13700433689 /* CreatePinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C303247FD13700433689 /* CreatePinViewController.swift */; };
+		DFA6C3D1247FD13700433689 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C304247FD13700433689 /* TutorialPageViewController.swift */; };
+		DFA6C3D2247FD13700433689 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C305247FD13700433689 /* LevelViewController.swift */; };
+		DFA6C3D3247FD13700433689 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C306247FD13700433689 /* LocationsViewController.swift */; };
+		DFA6C3D4247FD13700433689 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C307247FD13700433689 /* RootViewController.swift */; };
+		DFA6C3D5247FD13700433689 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C308247FD13700433689 /* ProductViewController.swift */; };
+		DFA6C3D6247FD13700433689 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C309247FD13700433689 /* DetailViewController.swift */; };
+		DFA6C3D7247FD13700433689 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C30A247FD13700433689 /* LoaderViewController.swift */; };
+		DFA6C3D8247FD13700433689 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C30B247FD13700433689 /* WelcomeViewController.swift */; };
+		DFA6C3D9247FD13700433689 /* VouchFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C30C247FD13700433689 /* VouchFriendsViewController.swift */; };
+		DFA6C3DA247FD13700433689 /* RootListMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C30D247FD13700433689 /* RootListMapViewController.swift */; };
+		DFA6C3DB247FD13700433689 /* VouchPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C30E247FD13700433689 /* VouchPointsViewController.swift */; };
+		DFA6C3DC247FD13700433689 /* FullScreenPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C30F247FD13700433689 /* FullScreenPopUpViewController.swift */; };
+		DFA6C3DD247FD13700433689 /* VouchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C310247FD13700433689 /* VouchManager.swift */; };
+		DFA6C3DE247FD13700433689 /* RootOfferDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C311247FD13700433689 /* RootOfferDetailsViewController.swift */; };
+		DFA6C3DF247FD13700433689 /* AllLevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C312247FD13700433689 /* AllLevelsViewController.swift */; };
+		DFA6C3E0247FD13700433689 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C313247FD13700433689 /* HomeViewController.swift */; };
+		DFA6C3E1247FD13700433689 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C314247FD13700433689 /* TutorialViewController.swift */; };
+		DFA6C3E2247FD13700433689 /* OfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C315247FD13700433689 /* OfferViewController.swift */; };
+		DFA6C3E3247FD13700433689 /* AllBadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C316247FD13700433689 /* AllBadgesViewController.swift */; };
+		DFA6C3E4247FD13700433689 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C317247FD13700433689 /* testViewController.swift */; };
+		DFA6C3E5247FD13700433689 /* PinViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C318247FD13700433689 /* PinViewViewController.swift */; };
+		DFA6C3E6247FD13700433689 /* AlternateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C319247FD13700433689 /* AlternateTableViewController.swift */; };
+		DFA6C3E7247FD13700433689 /* MyInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C31A247FD13700433689 /* MyInformationViewController.swift */; };
+		DFA6C3E8247FD13700433689 /* RootFavPingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C31B247FD13700433689 /* RootFavPingsViewController.swift */; };
+		DFA6C3E9247FD13700433689 /* PingReceivedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C31C247FD13700433689 /* PingReceivedViewController.swift */; };
+		DFA6C3EA247FD13700433689 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C31D247FD13700433689 /* BrowserViewController.swift */; };
+		DFA6C3EB247FD13700433689 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C31E247FD13700433689 /* FavouriteViewController.swift */; };
+		DFA6C3EC247FD13700433689 /* PingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C31F247FD13700433689 /* PingsViewController.swift */; };
+		DFA6C3ED247FD13700433689 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C320247FD13700433689 /* InviteViewController.swift */; };
+		DFA6C3EE247FD13700433689 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C321247FD13700433689 /* ProfileViewController.swift */; };
+		DFA6C3EF247FD13700433689 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C322247FD13700433689 /* DetailsViewController.swift */; };
+		DFA6C3F0247FD13700433689 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C323247FD13700433689 /* NotificationViewController.swift */; };
+		DFA6C3F1247FD13700433689 /* VouchMapListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C324247FD13700433689 /* VouchMapListingViewController.swift */; };
+		DFA6C3F2247FD13700433689 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C325247FD13700433689 /* AccountViewController.swift */; };
+		DFA6C3F3247FD13700433689 /* SucessRedeemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C327247FD13700433689 /* SucessRedeemView.swift */; };
+		DFA6C3F4247FD13700433689 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C329247FD13700433689 /* HistoryTableViewCell.swift */; };
+		DFA6C3F5247FD13700433689 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C32A247FD13700433689 /* FilterCell.swift */; };
+		DFA6C3F6247FD13700433689 /* DataWithLockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C32B247FD13700433689 /* DataWithLockTableViewCell.swift */; };
+		DFA6C3F7247FD13700433689 /* MainDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C32C247FD13700433689 /* MainDetailsTableViewCell.swift */; };
+		DFA6C3F8247FD13700433689 /* OfferedInProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C32D247FD13700433689 /* OfferedInProductTableViewCell.swift */; };
+		DFA6C3F9247FD13700433689 /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C32E247FD13700433689 /* IconCollectionViewCell.swift */; };
+		DFA6C3FA247FD13700433689 /* FavouriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C32F247FD13700433689 /* FavouriteTableViewCell.swift */; };
+		DFA6C3FB247FD13700433689 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C330247FD13700433689 /* LocationTableViewCell.swift */; };
+		DFA6C3FC247FD13700433689 /* AlternateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C331247FD13700433689 /* AlternateTableViewCell.swift */; };
+		DFA6C3FD247FD13700433689 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C332247FD13700433689 /* AccountTableViewCell.swift */; };
+		DFA6C3FE247FD13700433689 /* BannerImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C333247FD13700433689 /* BannerImageCollectionViewCell.swift */; };
+		DFA6C3FF247FD13700433689 /* DataWithoutLockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C334247FD13700433689 /* DataWithoutLockTableViewCell.swift */; };
+		DFA6C400247FD13700433689 /* NotificationImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C335247FD13700433689 /* NotificationImageTableViewCell.swift */; };
+		DFA6C401247FD13700433689 /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C336247FD13700433689 /* DetailsCollectionViewCell.swift */; };
+		DFA6C402247FD13700433689 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C337247FD13700433689 /* BannerCollectionViewCell.swift */; };
+		DFA6C403247FD13700433689 /* PingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C338247FD13700433689 /* PingTableViewCell.swift */; };
+		DFA6C404247FD13700433689 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C339247FD13700433689 /* DataCollectionViewCell.swift */; };
+		DFA6C405247FD13700433689 /* AreaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C33A247FD13700433689 /* AreaTableViewCell.swift */; };
+		DFA6C406247FD13700433689 /* OfferDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C33B247FD13700433689 /* OfferDetailsTableViewCell.swift */; };
+		DFA6C407247FD13700433689 /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C33C247FD13700433689 /* SelectionTableViewCell.swift */; };
+		DFA6C408247FD13700433689 /* OptionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C33D247FD13700433689 /* OptionsCollectionViewCell.swift */; };
+		DFA6C409247FD13700433689 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C33E247FD13700433689 /* CategoryTableViewCell.swift */; };
+		DFA6C40A247FD13700433689 /* DashboardOfferIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C33F247FD13700433689 /* DashboardOfferIconCell.swift */; };
+		DFA6C40B247FD13700433689 /* ItemListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C340247FD13700433689 /* ItemListTableViewCell.swift */; };
+		DFA6C40C247FD13700433689 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C341247FD13700433689 /* ProductTableViewCell.swift */; };
+		DFA6C40D247FD13700433689 /* DetailMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C342247FD13700433689 /* DetailMapTableViewCell.swift */; };
+		DFA6C40E247FD13700433689 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C343247FD13700433689 /* SearchTableViewCell.swift */; };
+		DFA6C40F247FD13700433689 /* AllLevelBagdeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C344247FD13700433689 /* AllLevelBagdeTableViewCell.swift */; };
+		DFA6C410247FD13700433689 /* CellPopUpTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C345247FD13700433689 /* CellPopUpTable.swift */; };
+		DFA6C411247FD13700433689 /* DashboardOfferBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C346247FD13700433689 /* DashboardOfferBannerCell.swift */; };
+		DFA6C412247FD13700433689 /* DetailListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C347247FD13700433689 /* DetailListCollectionViewCell.swift */; };
+		DFA6C413247FD13700433689 /* CompanyDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C348247FD13700433689 /* CompanyDescriptionTableViewCell.swift */; };
+		DFA6C414247FD13700433689 /* NotificationTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C349247FD13700433689 /* NotificationTextTableViewCell.swift */; };
+		DFA6C415247FD13700433689 /* HomeVendorLogoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C34A247FD13700433689 /* HomeVendorLogoTableViewCell.swift */; };
+		DFA6C416247FD13700433689 /* DataWithSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C34B247FD13700433689 /* DataWithSwitchTableViewCell.swift */; };
+		DFA6C417247FD13700433689 /* VoucherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C34C247FD13700433689 /* VoucherTableViewCell.swift */; };
+		DFA6C418247FD13700433689 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C34D247FD13700433689 /* HeaderTableViewCell.swift */; };
+		DFA6C419247FD13700433689 /* GifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C34E247FD13700433689 /* GifLoader.swift */; };
+		DFA6C41A247FD13700433689 /* View_Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C34F247FD13700433689 /* View_Profile.swift */; };
+		DFA6C41B247FD13700433689 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C350247FD13700433689 /* FilterView.swift */; };
+		DFA6C41C247FD13700433689 /* RedeemPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C351247FD13700433689 /* RedeemPinView.swift */; };
+		DFA6C41D247FD13700433689 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C352247FD13700433689 /* SelectionView.swift */; };
+		DFA6C41E247FD13700433689 /* ViewOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C353247FD13700433689 /* ViewOffer.swift */; };
+		DFA6C41F247FD13700433689 /* RedeemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C354247FD13700433689 /* RedeemView.swift */; };
+		DFA6C420247FD13700433689 /* FilterSimpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C355247FD13700433689 /* FilterSimpleCell.swift */; };
+		DFA6C421247FD13700433689 /* VSPINView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C356247FD13700433689 /* VSPINView.swift */; };
+		DFA6C422247FD13700433689 /* FriendSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C357247FD13700433689 /* FriendSearch.swift */; };
+		DFA6C423247FD13700433689 /* Voucher365-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA6C358247FD13700433689 /* Voucher365-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B95BD8D4D37999C89812F1F /* Pods-TakafulVouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakafulVouch.debug.xcconfig"; path = "Target Support Files/Pods-TakafulVouch/Pods-TakafulVouch.debug.xcconfig"; sourceTree = "<group>"; };
+		659D0F7D8EFD9413689A0709 /* Pods_TakafulVouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakafulVouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA6C271247FC84100433689 /* TakafulVouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TakafulVouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA6C274247FC84100433689 /* TakafulVouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakafulVouch.h; sourceTree = "<group>"; };
-		DFA6C275247FC84100433689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA6C27E247FD13700433689 /* APPinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APPinViewController.xib; sourceTree = "<group>"; };
+		DFA6C27F247FD13700433689 /* RedeemPinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedeemPinView.xib; sourceTree = "<group>"; };
+		DFA6C280247FD13700433689 /* FriendSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendSearch.xib; sourceTree = "<group>"; };
+		DFA6C281247FD13700433689 /* SelectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionTableViewCell.xib; sourceTree = "<group>"; };
+		DFA6C282247FD13700433689 /* FilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterCell.xib; sourceTree = "<group>"; };
+		DFA6C283247FD13700433689 /* View_Profile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View_Profile.xib; sourceTree = "<group>"; };
+		DFA6C284247FD13700433689 /* FilterSimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterSimpleCell.xib; sourceTree = "<group>"; };
+		DFA6C285247FD13700433689 /* GifLoader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GifLoader.xib; sourceTree = "<group>"; };
+		DFA6C286247FD13700433689 /* ViewOffer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewOffer.xib; sourceTree = "<group>"; };
+		DFA6C287247FD13700433689 /* VSPINView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSPINView.xib; sourceTree = "<group>"; };
+		DFA6C288247FD13700433689 /* RedeemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedeemView.xib; sourceTree = "<group>"; };
+		DFA6C289247FD13700433689 /* SucessRedeemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SucessRedeemView.xib; sourceTree = "<group>"; };
+		DFA6C28C247FD13700433689 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		DFA6C28E247FD13700433689 /* VouchCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VouchCity.swift; sourceTree = "<group>"; };
+		DFA6C28F247FD13700433689 /* VouchUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VouchUser.swift; sourceTree = "<group>"; };
+		DFA6C290247FD13700433689 /* TakafulVouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakafulVouch.h; sourceTree = "<group>"; };
+		DFA6C292247FD13700433689 /* APPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPinViewController.m; sourceTree = "<group>"; };
+		DFA6C293247FD13700433689 /* APPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPinView.m; sourceTree = "<group>"; };
+		DFA6C296247FD13700433689 /* MPGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPGTextField.m; sourceTree = "<group>"; };
+		DFA6C298247FD13700433689 /* pinViewSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinViewSelected.png; sourceTree = "<group>"; };
+		DFA6C299247FD13700433689 /* pinViewSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinViewSelected@2x.png"; sourceTree = "<group>"; };
+		DFA6C29A247FD13700433689 /* pinViewUnSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinViewUnSelected.png; sourceTree = "<group>"; };
+		DFA6C29B247FD13700433689 /* splash_loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash_loading.gif; sourceTree = "<group>"; };
+		DFA6C29C247FD13700433689 /* pinViewUnSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinViewUnSelected@2x.png"; sourceTree = "<group>"; };
+		DFA6C29E247FD13700433689 /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		DFA6C29F247FD13700433689 /* ServiceWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceWrapper.swift; sourceTree = "<group>"; };
+		DFA6C2A1247FD13700433689 /* Account-Pso.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Account-Pso.storyboard"; sourceTree = "<group>"; };
+		DFA6C2A2247FD13700433689 /* Login-Pso.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Login-Pso.storyboard"; sourceTree = "<group>"; };
+		DFA6C2A3247FD13700433689 /* Main-Pso.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-Pso.storyboard"; sourceTree = "<group>"; };
+		DFA6C2A5247FD13700433689 /* GIF-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-02.jpg"; sourceTree = "<group>"; };
+		DFA6C2A6247FD13700433689 /* GIF-16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-16.jpg"; sourceTree = "<group>"; };
+		DFA6C2A7247FD13700433689 /* GIF-17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-17.jpg"; sourceTree = "<group>"; };
+		DFA6C2A8247FD13700433689 /* GIF-03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-03.jpg"; sourceTree = "<group>"; };
+		DFA6C2A9247FD13700433689 /* GIF-29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-29.jpg"; sourceTree = "<group>"; };
+		DFA6C2AA247FD13700433689 /* GIF-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-15.jpg"; sourceTree = "<group>"; };
+		DFA6C2AB247FD13700433689 /* GIF-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-01.jpg"; sourceTree = "<group>"; };
+		DFA6C2AC247FD13700433689 /* GIF-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-14.jpg"; sourceTree = "<group>"; };
+		DFA6C2AD247FD13700433689 /* GIF-28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-28.jpg"; sourceTree = "<group>"; };
+		DFA6C2AE247FD13700433689 /* GIF-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-10.jpg"; sourceTree = "<group>"; };
+		DFA6C2AF247FD13700433689 /* GIF-04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-04.jpg"; sourceTree = "<group>"; };
+		DFA6C2B0247FD13700433689 /* GIF-38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-38.jpg"; sourceTree = "<group>"; };
+		DFA6C2B1247FD13700433689 /* GIF-39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-39.jpg"; sourceTree = "<group>"; };
+		DFA6C2B2247FD13700433689 /* GIF-05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-05.jpg"; sourceTree = "<group>"; };
+		DFA6C2B3247FD13700433689 /* GIF-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-11.jpg"; sourceTree = "<group>"; };
+		DFA6C2B4247FD13700433689 /* GIF-07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-07.jpg"; sourceTree = "<group>"; };
+		DFA6C2B5247FD13700433689 /* GIF-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-13.jpg"; sourceTree = "<group>"; };
+		DFA6C2B6247FD13700433689 /* GIF-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-12.jpg"; sourceTree = "<group>"; };
+		DFA6C2B7247FD13700433689 /* GIF-06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-06.jpg"; sourceTree = "<group>"; };
+		DFA6C2B8247FD13700433689 /* GIF-48.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-48.jpg"; sourceTree = "<group>"; };
+		DFA6C2B9247FD13700433689 /* splash11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash11.jpg; sourceTree = "<group>"; };
+		DFA6C2BA247FD13700433689 /* GIF-40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-40.jpg"; sourceTree = "<group>"; };
+		DFA6C2BB247FD13700433689 /* GIF-41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-41.jpg"; sourceTree = "<group>"; };
+		DFA6C2BC247FD13700433689 /* GIF-43.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-43.jpg"; sourceTree = "<group>"; };
+		DFA6C2BD247FD13700433689 /* GIF-42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-42.jpg"; sourceTree = "<group>"; };
+		DFA6C2BE247FD13700433689 /* GIF-46.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-46.jpg"; sourceTree = "<group>"; };
+		DFA6C2BF247FD13700433689 /* GIF-47.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-47.jpg"; sourceTree = "<group>"; };
+		DFA6C2C0247FD13700433689 /* GIF-45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-45.jpg"; sourceTree = "<group>"; };
+		DFA6C2C1247FD13700433689 /* GIF-44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-44.jpg"; sourceTree = "<group>"; };
+		DFA6C2C2247FD13700433689 /* GIF-23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-23.jpg"; sourceTree = "<group>"; };
+		DFA6C2C3247FD13700433689 /* GIF-37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-37.jpg"; sourceTree = "<group>"; };
+		DFA6C2C4247FD13700433689 /* GIF-36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-36.jpg"; sourceTree = "<group>"; };
+		DFA6C2C5247FD13700433689 /* GIF-22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-22.jpg"; sourceTree = "<group>"; };
+		DFA6C2C6247FD13700433689 /* GIF-08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-08.jpg"; sourceTree = "<group>"; };
+		DFA6C2C7247FD13700433689 /* GIF-34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-34.jpg"; sourceTree = "<group>"; };
+		DFA6C2C8247FD13700433689 /* GIF-20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-20.jpg"; sourceTree = "<group>"; };
+		DFA6C2C9247FD13700433689 /* GIF-21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-21.jpg"; sourceTree = "<group>"; };
+		DFA6C2CA247FD13700433689 /* GIF-35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-35.jpg"; sourceTree = "<group>"; };
+		DFA6C2CB247FD13700433689 /* GIF-09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-09.jpg"; sourceTree = "<group>"; };
+		DFA6C2CC247FD13700433689 /* GIF-31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-31.jpg"; sourceTree = "<group>"; };
+		DFA6C2CD247FD13700433689 /* GIF-25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-25.jpg"; sourceTree = "<group>"; };
+		DFA6C2CE247FD13700433689 /* GIF-19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-19.jpg"; sourceTree = "<group>"; };
+		DFA6C2CF247FD13700433689 /* GIF-18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-18.jpg"; sourceTree = "<group>"; };
+		DFA6C2D0247FD13700433689 /* GIF-24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-24.jpg"; sourceTree = "<group>"; };
+		DFA6C2D1247FD13700433689 /* GIF-30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-30.jpg"; sourceTree = "<group>"; };
+		DFA6C2D2247FD13700433689 /* GIF-26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-26.jpg"; sourceTree = "<group>"; };
+		DFA6C2D3247FD13700433689 /* GIF-32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-32.jpg"; sourceTree = "<group>"; };
+		DFA6C2D4247FD13700433689 /* GIF-33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-33.jpg"; sourceTree = "<group>"; };
+		DFA6C2D5247FD13700433689 /* GIF-27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GIF-27.jpg"; sourceTree = "<group>"; };
+		DFA6C2D7247FD13700433689 /* A.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = A.xcassets; sourceTree = "<group>"; };
+		DFA6C2D8247FD13700433689 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		DFA6C2DA247FD13700433689 /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		DFA6C2DB247FD13700433689 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		DFA6C2DC247FD13700433689 /* CompanyDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyDetail.swift; sourceTree = "<group>"; };
+		DFA6C2DD247FD13700433689 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		DFA6C2DE247FD13700433689 /* Ping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ping.swift; sourceTree = "<group>"; };
+		DFA6C2DF247FD13700433689 /* NotificationVeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVeer.swift; sourceTree = "<group>"; };
+		DFA6C2E0247FD13700433689 /* HomeSaving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSaving.swift; sourceTree = "<group>"; };
+		DFA6C2E1247FD13700433689 /* VoucherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoucherData.swift; sourceTree = "<group>"; };
+		DFA6C2E2247FD13700433689 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		DFA6C2E3247FD13700433689 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DFA6C2E4247FD13700433689 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DFA6C2E5247FD13700433689 /* Voucher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voucher.swift; sourceTree = "<group>"; };
+		DFA6C2E6247FD13700433689 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		DFA6C2E7247FD13700433689 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		DFA6C2E8247FD13700433689 /* Vouchers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vouchers.swift; sourceTree = "<group>"; };
+		DFA6C2E9247FD13700433689 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		DFA6C2EA247FD13700433689 /* PopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		DFA6C2EB247FD13700433689 /* TakafulVouch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TakafulVouch.plist; sourceTree = "<group>"; };
+		DFA6C2ED247FD13700433689 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DFA6C2EE247FD13700433689 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		DFA6C2EF247FD13700433689 /* VSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSLabel.swift; sourceTree = "<group>"; };
+		DFA6C2F0247FD13700433689 /* VSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSButton.swift; sourceTree = "<group>"; };
+		DFA6C2F1247FD13700433689 /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		DFA6C2F2247FD13700433689 /* UIBarButtonItem.ActionSheetPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.ActionSheetPicker.swift; sourceTree = "<group>"; };
+		DFA6C2F3247FD13700433689 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		DFA6C2F4247FD13700433689 /* UIColor.StyleGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.StyleGuide.swift; sourceTree = "<group>"; };
+		DFA6C2F5247FD13700433689 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		DFA6C2F6247FD13700433689 /* FiltersArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersArray.swift; sourceTree = "<group>"; };
+		DFA6C2F7247FD13700433689 /* VSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSTextField.swift; sourceTree = "<group>"; };
+		DFA6C2F9247FD13700433689 /* MPGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPGTextField.h; sourceTree = "<group>"; };
+		DFA6C2FA247FD13700433689 /* APPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPinViewController.h; sourceTree = "<group>"; };
+		DFA6C2FB247FD13700433689 /* APPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPinView.h; sourceTree = "<group>"; };
+		DFA6C2FC247FD13700433689 /* Bootstraper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bootstraper.swift; sourceTree = "<group>"; };
+		DFA6C2FE247FD13700433689 /* PingSentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingSentViewController.swift; sourceTree = "<group>"; };
+		DFA6C2FF247FD13700433689 /* ItemListingMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListingMapViewController.swift; sourceTree = "<group>"; };
+		DFA6C300247FD13700433689 /* PingHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingHistoryViewController.swift; sourceTree = "<group>"; };
+		DFA6C301247FD13700433689 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		DFA6C302247FD13700433689 /* PurchaseHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseHistoryViewController.swift; sourceTree = "<group>"; };
+		DFA6C303247FD13700433689 /* CreatePinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePinViewController.swift; sourceTree = "<group>"; };
+		DFA6C304247FD13700433689 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		DFA6C305247FD13700433689 /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		DFA6C306247FD13700433689 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		DFA6C307247FD13700433689 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DFA6C308247FD13700433689 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		DFA6C309247FD13700433689 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DFA6C30A247FD13700433689 /* LoaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		DFA6C30B247FD13700433689 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DFA6C30C247FD13700433689 /* VouchFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VouchFriendsViewController.swift; sourceTree = "<group>"; };
+		DFA6C30D247FD13700433689 /* RootListMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootListMapViewController.swift; sourceTree = "<group>"; };
+		DFA6C30E247FD13700433689 /* VouchPointsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VouchPointsViewController.swift; sourceTree = "<group>"; };
+		DFA6C30F247FD13700433689 /* FullScreenPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenPopUpViewController.swift; sourceTree = "<group>"; };
+		DFA6C310247FD13700433689 /* VouchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VouchManager.swift; sourceTree = "<group>"; };
+		DFA6C311247FD13700433689 /* RootOfferDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootOfferDetailsViewController.swift; sourceTree = "<group>"; };
+		DFA6C312247FD13700433689 /* AllLevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllLevelsViewController.swift; sourceTree = "<group>"; };
+		DFA6C313247FD13700433689 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DFA6C314247FD13700433689 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		DFA6C315247FD13700433689 /* OfferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferViewController.swift; sourceTree = "<group>"; };
+		DFA6C316247FD13700433689 /* AllBadgesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllBadgesViewController.swift; sourceTree = "<group>"; };
+		DFA6C317247FD13700433689 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		DFA6C318247FD13700433689 /* PinViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinViewViewController.swift; sourceTree = "<group>"; };
+		DFA6C319247FD13700433689 /* AlternateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternateTableViewController.swift; sourceTree = "<group>"; };
+		DFA6C31A247FD13700433689 /* MyInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInformationViewController.swift; sourceTree = "<group>"; };
+		DFA6C31B247FD13700433689 /* RootFavPingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootFavPingsViewController.swift; sourceTree = "<group>"; };
+		DFA6C31C247FD13700433689 /* PingReceivedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingReceivedViewController.swift; sourceTree = "<group>"; };
+		DFA6C31D247FD13700433689 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		DFA6C31E247FD13700433689 /* FavouriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		DFA6C31F247FD13700433689 /* PingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingsViewController.swift; sourceTree = "<group>"; };
+		DFA6C320247FD13700433689 /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		DFA6C321247FD13700433689 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DFA6C322247FD13700433689 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DFA6C323247FD13700433689 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		DFA6C324247FD13700433689 /* VouchMapListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VouchMapListingViewController.swift; sourceTree = "<group>"; };
+		DFA6C325247FD13700433689 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		DFA6C327247FD13700433689 /* SucessRedeemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SucessRedeemView.swift; sourceTree = "<group>"; };
+		DFA6C329247FD13700433689 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C32A247FD13700433689 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		DFA6C32B247FD13700433689 /* DataWithLockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataWithLockTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C32C247FD13700433689 /* MainDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C32D247FD13700433689 /* OfferedInProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferedInProductTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C32E247FD13700433689 /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFA6C32F247FD13700433689 /* FavouriteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C330247FD13700433689 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C331247FD13700433689 /* AlternateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternateTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C332247FD13700433689 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C333247FD13700433689 /* BannerImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFA6C334247FD13700433689 /* DataWithoutLockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataWithoutLockTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C335247FD13700433689 /* NotificationImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationImageTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C336247FD13700433689 /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFA6C337247FD13700433689 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFA6C338247FD13700433689 /* PingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C339247FD13700433689 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFA6C33A247FD13700433689 /* AreaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C33B247FD13700433689 /* OfferDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C33C247FD13700433689 /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C33D247FD13700433689 /* OptionsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFA6C33E247FD13700433689 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C33F247FD13700433689 /* DashboardOfferIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardOfferIconCell.swift; sourceTree = "<group>"; };
+		DFA6C340247FD13700433689 /* ItemListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C341247FD13700433689 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C342247FD13700433689 /* DetailMapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMapTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C343247FD13700433689 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C344247FD13700433689 /* AllLevelBagdeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllLevelBagdeTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C345247FD13700433689 /* CellPopUpTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellPopUpTable.swift; sourceTree = "<group>"; };
+		DFA6C346247FD13700433689 /* DashboardOfferBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardOfferBannerCell.swift; sourceTree = "<group>"; };
+		DFA6C347247FD13700433689 /* DetailListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailListCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFA6C348247FD13700433689 /* CompanyDescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C349247FD13700433689 /* NotificationTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTextTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C34A247FD13700433689 /* HomeVendorLogoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVendorLogoTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C34B247FD13700433689 /* DataWithSwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataWithSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C34C247FD13700433689 /* VoucherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoucherTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C34D247FD13700433689 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		DFA6C34E247FD13700433689 /* GifLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifLoader.swift; sourceTree = "<group>"; };
+		DFA6C34F247FD13700433689 /* View_Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View_Profile.swift; sourceTree = "<group>"; };
+		DFA6C350247FD13700433689 /* FilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		DFA6C351247FD13700433689 /* RedeemPinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemPinView.swift; sourceTree = "<group>"; };
+		DFA6C352247FD13700433689 /* SelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		DFA6C353247FD13700433689 /* ViewOffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOffer.swift; sourceTree = "<group>"; };
+		DFA6C354247FD13700433689 /* RedeemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemView.swift; sourceTree = "<group>"; };
+		DFA6C355247FD13700433689 /* FilterSimpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterSimpleCell.swift; sourceTree = "<group>"; };
+		DFA6C356247FD13700433689 /* VSPINView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSPINView.swift; sourceTree = "<group>"; };
+		DFA6C357247FD13700433689 /* FriendSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearch.swift; sourceTree = "<group>"; };
+		DFA6C358247FD13700433689 /* Voucher365-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Voucher365-Bridging-Header.h"; sourceTree = "<group>"; };
+		E773F3EA2D827885944EE645 /* Pods-TakafulVouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakafulVouch.release.xcconfig"; path = "Target Support Files/Pods-TakafulVouch/Pods-TakafulVouch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +426,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2653B228859D87C399AA20B /* Pods_TakafulVouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AABD55DB280F866899CAA5B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659D0F7D8EFD9413689A0709 /* Pods_TakafulVouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFA6C267247FC84100433689 = {
 			isa = PBXGroup;
 			children = (
-				DFA6C273247FC84100433689 /* TakafulVouch */,
+				DFA6C27C247FD13700433689 /* TakafulVouch */,
 				DFA6C272247FC84100433689 /* Products */,
+				ED16BF4A46A09BB787172B62 /* Pods */,
+				AABD55DB280F866899CAA5B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,13 +459,366 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DFA6C273247FC84100433689 /* TakafulVouch */ = {
+		DFA6C27C247FD13700433689 /* TakafulVouch */ = {
 			isa = PBXGroup;
 			children = (
-				DFA6C274247FC84100433689 /* TakafulVouch.h */,
-				DFA6C275247FC84100433689 /* Info.plist */,
+				DFA6C358247FD13700433689 /* Voucher365-Bridging-Header.h */,
+				DFA6C290247FD13700433689 /* TakafulVouch.h */,
+				DFA6C2FC247FD13700433689 /* Bootstraper.swift */,
+				DFA6C2EB247FD13700433689 /* TakafulVouch.plist */,
+				DFA6C27D247FD13700433689 /* Xibs */,
+				DFA6C28A247FD13700433689 /* DataBase */,
+				DFA6C291247FD13700433689 /* OtherClasses */,
+				DFA6C294247FD13700433689 /* ThirdPartyClasses */,
+				DFA6C29D247FD13700433689 /* Servicelayer */,
+				DFA6C2A0247FD13700433689 /* StoryBoard */,
+				DFA6C2A4247FD13700433689 /* AnimationsImages */,
+				DFA6C2D6247FD13700433689 /* Resources */,
+				DFA6C2D9247FD13700433689 /* Models */,
+				DFA6C2EC247FD13700433689 /* Utilities */,
+				DFA6C2F8247FD13700433689 /* Headers */,
+				DFA6C2FD247FD13700433689 /* Controllers */,
+				DFA6C326247FD13700433689 /* Views */,
 			);
 			path = TakafulVouch;
+			sourceTree = "<group>";
+		};
+		DFA6C27D247FD13700433689 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C27E247FD13700433689 /* APPinViewController.xib */,
+				DFA6C27F247FD13700433689 /* RedeemPinView.xib */,
+				DFA6C280247FD13700433689 /* FriendSearch.xib */,
+				DFA6C281247FD13700433689 /* SelectionTableViewCell.xib */,
+				DFA6C282247FD13700433689 /* FilterCell.xib */,
+				DFA6C283247FD13700433689 /* View_Profile.xib */,
+				DFA6C284247FD13700433689 /* FilterSimpleCell.xib */,
+				DFA6C285247FD13700433689 /* GifLoader.xib */,
+				DFA6C286247FD13700433689 /* ViewOffer.xib */,
+				DFA6C287247FD13700433689 /* VSPINView.xib */,
+				DFA6C288247FD13700433689 /* RedeemView.xib */,
+				DFA6C289247FD13700433689 /* SucessRedeemView.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		DFA6C28A247FD13700433689 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C28B247FD13700433689 /* StorageService */,
+				DFA6C28D247FD13700433689 /* Model */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		DFA6C28B247FD13700433689 /* StorageService */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C28C247FD13700433689 /* StorageService.swift */,
+			);
+			path = StorageService;
+			sourceTree = "<group>";
+		};
+		DFA6C28D247FD13700433689 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C28E247FD13700433689 /* VouchCity.swift */,
+				DFA6C28F247FD13700433689 /* VouchUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFA6C291247FD13700433689 /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C292247FD13700433689 /* APPinViewController.m */,
+				DFA6C293247FD13700433689 /* APPinView.m */,
+			);
+			path = OtherClasses;
+			sourceTree = "<group>";
+		};
+		DFA6C294247FD13700433689 /* ThirdPartyClasses */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C295247FD13700433689 /* MPGTextField */,
+				DFA6C297247FD13700433689 /* APPinView */,
+			);
+			path = ThirdPartyClasses;
+			sourceTree = "<group>";
+		};
+		DFA6C295247FD13700433689 /* MPGTextField */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C296247FD13700433689 /* MPGTextField.m */,
+			);
+			path = MPGTextField;
+			sourceTree = "<group>";
+		};
+		DFA6C297247FD13700433689 /* APPinView */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C298247FD13700433689 /* pinViewSelected.png */,
+				DFA6C299247FD13700433689 /* pinViewSelected@2x.png */,
+				DFA6C29A247FD13700433689 /* pinViewUnSelected.png */,
+				DFA6C29B247FD13700433689 /* splash_loading.gif */,
+				DFA6C29C247FD13700433689 /* pinViewUnSelected@2x.png */,
+			);
+			path = APPinView;
+			sourceTree = "<group>";
+		};
+		DFA6C29D247FD13700433689 /* Servicelayer */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C29E247FD13700433689 /* ServiceLayer.swift */,
+				DFA6C29F247FD13700433689 /* ServiceWrapper.swift */,
+			);
+			path = Servicelayer;
+			sourceTree = "<group>";
+		};
+		DFA6C2A0247FD13700433689 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C2A1247FD13700433689 /* Account-Pso.storyboard */,
+				DFA6C2A2247FD13700433689 /* Login-Pso.storyboard */,
+				DFA6C2A3247FD13700433689 /* Main-Pso.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DFA6C2A4247FD13700433689 /* AnimationsImages */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C2A5247FD13700433689 /* GIF-02.jpg */,
+				DFA6C2A6247FD13700433689 /* GIF-16.jpg */,
+				DFA6C2A7247FD13700433689 /* GIF-17.jpg */,
+				DFA6C2A8247FD13700433689 /* GIF-03.jpg */,
+				DFA6C2A9247FD13700433689 /* GIF-29.jpg */,
+				DFA6C2AA247FD13700433689 /* GIF-15.jpg */,
+				DFA6C2AB247FD13700433689 /* GIF-01.jpg */,
+				DFA6C2AC247FD13700433689 /* GIF-14.jpg */,
+				DFA6C2AD247FD13700433689 /* GIF-28.jpg */,
+				DFA6C2AE247FD13700433689 /* GIF-10.jpg */,
+				DFA6C2AF247FD13700433689 /* GIF-04.jpg */,
+				DFA6C2B0247FD13700433689 /* GIF-38.jpg */,
+				DFA6C2B1247FD13700433689 /* GIF-39.jpg */,
+				DFA6C2B2247FD13700433689 /* GIF-05.jpg */,
+				DFA6C2B3247FD13700433689 /* GIF-11.jpg */,
+				DFA6C2B4247FD13700433689 /* GIF-07.jpg */,
+				DFA6C2B5247FD13700433689 /* GIF-13.jpg */,
+				DFA6C2B6247FD13700433689 /* GIF-12.jpg */,
+				DFA6C2B7247FD13700433689 /* GIF-06.jpg */,
+				DFA6C2B8247FD13700433689 /* GIF-48.jpg */,
+				DFA6C2B9247FD13700433689 /* splash11.jpg */,
+				DFA6C2BA247FD13700433689 /* GIF-40.jpg */,
+				DFA6C2BB247FD13700433689 /* GIF-41.jpg */,
+				DFA6C2BC247FD13700433689 /* GIF-43.jpg */,
+				DFA6C2BD247FD13700433689 /* GIF-42.jpg */,
+				DFA6C2BE247FD13700433689 /* GIF-46.jpg */,
+				DFA6C2BF247FD13700433689 /* GIF-47.jpg */,
+				DFA6C2C0247FD13700433689 /* GIF-45.jpg */,
+				DFA6C2C1247FD13700433689 /* GIF-44.jpg */,
+				DFA6C2C2247FD13700433689 /* GIF-23.jpg */,
+				DFA6C2C3247FD13700433689 /* GIF-37.jpg */,
+				DFA6C2C4247FD13700433689 /* GIF-36.jpg */,
+				DFA6C2C5247FD13700433689 /* GIF-22.jpg */,
+				DFA6C2C6247FD13700433689 /* GIF-08.jpg */,
+				DFA6C2C7247FD13700433689 /* GIF-34.jpg */,
+				DFA6C2C8247FD13700433689 /* GIF-20.jpg */,
+				DFA6C2C9247FD13700433689 /* GIF-21.jpg */,
+				DFA6C2CA247FD13700433689 /* GIF-35.jpg */,
+				DFA6C2CB247FD13700433689 /* GIF-09.jpg */,
+				DFA6C2CC247FD13700433689 /* GIF-31.jpg */,
+				DFA6C2CD247FD13700433689 /* GIF-25.jpg */,
+				DFA6C2CE247FD13700433689 /* GIF-19.jpg */,
+				DFA6C2CF247FD13700433689 /* GIF-18.jpg */,
+				DFA6C2D0247FD13700433689 /* GIF-24.jpg */,
+				DFA6C2D1247FD13700433689 /* GIF-30.jpg */,
+				DFA6C2D2247FD13700433689 /* GIF-26.jpg */,
+				DFA6C2D3247FD13700433689 /* GIF-32.jpg */,
+				DFA6C2D4247FD13700433689 /* GIF-33.jpg */,
+				DFA6C2D5247FD13700433689 /* GIF-27.jpg */,
+			);
+			path = AnimationsImages;
+			sourceTree = "<group>";
+		};
+		DFA6C2D6247FD13700433689 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C2D7247FD13700433689 /* A.xcassets */,
+				DFA6C2D8247FD13700433689 /* loader.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFA6C2D9247FD13700433689 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C2DA247FD13700433689 /* Offer.swift */,
+				DFA6C2DB247FD13700433689 /* Location.swift */,
+				DFA6C2DC247FD13700433689 /* CompanyDetail.swift */,
+				DFA6C2DD247FD13700433689 /* Friend.swift */,
+				DFA6C2DE247FD13700433689 /* Ping.swift */,
+				DFA6C2DF247FD13700433689 /* NotificationVeer.swift */,
+				DFA6C2E0247FD13700433689 /* HomeSaving.swift */,
+				DFA6C2E1247FD13700433689 /* VoucherData.swift */,
+				DFA6C2E2247FD13700433689 /* UserProfile.swift */,
+				DFA6C2E3247FD13700433689 /* User.swift */,
+				DFA6C2E4247FD13700433689 /* Category.swift */,
+				DFA6C2E5247FD13700433689 /* Voucher.swift */,
+				DFA6C2E6247FD13700433689 /* History.swift */,
+				DFA6C2E7247FD13700433689 /* Badge.swift */,
+				DFA6C2E8247FD13700433689 /* Vouchers.swift */,
+				DFA6C2E9247FD13700433689 /* Level.swift */,
+				DFA6C2EA247FD13700433689 /* PopUp.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFA6C2EC247FD13700433689 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C2ED247FD13700433689 /* Constants.swift */,
+				DFA6C2EE247FD13700433689 /* Utilities.swift */,
+				DFA6C2EF247FD13700433689 /* VSLabel.swift */,
+				DFA6C2F0247FD13700433689 /* VSButton.swift */,
+				DFA6C2F1247FD13700433689 /* Countries.swift */,
+				DFA6C2F2247FD13700433689 /* UIBarButtonItem.ActionSheetPicker.swift */,
+				DFA6C2F3247FD13700433689 /* extension.swift */,
+				DFA6C2F4247FD13700433689 /* UIColor.StyleGuide.swift */,
+				DFA6C2F5247FD13700433689 /* String.swift */,
+				DFA6C2F6247FD13700433689 /* FiltersArray.swift */,
+				DFA6C2F7247FD13700433689 /* VSTextField.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DFA6C2F8247FD13700433689 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C2F9247FD13700433689 /* MPGTextField.h */,
+				DFA6C2FA247FD13700433689 /* APPinViewController.h */,
+				DFA6C2FB247FD13700433689 /* APPinView.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		DFA6C2FD247FD13700433689 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C2FE247FD13700433689 /* PingSentViewController.swift */,
+				DFA6C2FF247FD13700433689 /* ItemListingMapViewController.swift */,
+				DFA6C300247FD13700433689 /* PingHistoryViewController.swift */,
+				DFA6C301247FD13700433689 /* SearchTableViewController.swift */,
+				DFA6C302247FD13700433689 /* PurchaseHistoryViewController.swift */,
+				DFA6C303247FD13700433689 /* CreatePinViewController.swift */,
+				DFA6C304247FD13700433689 /* TutorialPageViewController.swift */,
+				DFA6C305247FD13700433689 /* LevelViewController.swift */,
+				DFA6C306247FD13700433689 /* LocationsViewController.swift */,
+				DFA6C307247FD13700433689 /* RootViewController.swift */,
+				DFA6C308247FD13700433689 /* ProductViewController.swift */,
+				DFA6C309247FD13700433689 /* DetailViewController.swift */,
+				DFA6C30A247FD13700433689 /* LoaderViewController.swift */,
+				DFA6C30B247FD13700433689 /* WelcomeViewController.swift */,
+				DFA6C30C247FD13700433689 /* VouchFriendsViewController.swift */,
+				DFA6C30D247FD13700433689 /* RootListMapViewController.swift */,
+				DFA6C30E247FD13700433689 /* VouchPointsViewController.swift */,
+				DFA6C30F247FD13700433689 /* FullScreenPopUpViewController.swift */,
+				DFA6C310247FD13700433689 /* VouchManager.swift */,
+				DFA6C311247FD13700433689 /* RootOfferDetailsViewController.swift */,
+				DFA6C312247FD13700433689 /* AllLevelsViewController.swift */,
+				DFA6C313247FD13700433689 /* HomeViewController.swift */,
+				DFA6C314247FD13700433689 /* TutorialViewController.swift */,
+				DFA6C315247FD13700433689 /* OfferViewController.swift */,
+				DFA6C316247FD13700433689 /* AllBadgesViewController.swift */,
+				DFA6C317247FD13700433689 /* testViewController.swift */,
+				DFA6C318247FD13700433689 /* PinViewViewController.swift */,
+				DFA6C319247FD13700433689 /* AlternateTableViewController.swift */,
+				DFA6C31A247FD13700433689 /* MyInformationViewController.swift */,
+				DFA6C31B247FD13700433689 /* RootFavPingsViewController.swift */,
+				DFA6C31C247FD13700433689 /* PingReceivedViewController.swift */,
+				DFA6C31D247FD13700433689 /* BrowserViewController.swift */,
+				DFA6C31E247FD13700433689 /* FavouriteViewController.swift */,
+				DFA6C31F247FD13700433689 /* PingsViewController.swift */,
+				DFA6C320247FD13700433689 /* InviteViewController.swift */,
+				DFA6C321247FD13700433689 /* ProfileViewController.swift */,
+				DFA6C322247FD13700433689 /* DetailsViewController.swift */,
+				DFA6C323247FD13700433689 /* NotificationViewController.swift */,
+				DFA6C324247FD13700433689 /* VouchMapListingViewController.swift */,
+				DFA6C325247FD13700433689 /* AccountViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DFA6C326247FD13700433689 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C327247FD13700433689 /* SucessRedeemView.swift */,
+				DFA6C328247FD13700433689 /* Cells */,
+				DFA6C34E247FD13700433689 /* GifLoader.swift */,
+				DFA6C34F247FD13700433689 /* View_Profile.swift */,
+				DFA6C350247FD13700433689 /* FilterView.swift */,
+				DFA6C351247FD13700433689 /* RedeemPinView.swift */,
+				DFA6C352247FD13700433689 /* SelectionView.swift */,
+				DFA6C353247FD13700433689 /* ViewOffer.swift */,
+				DFA6C354247FD13700433689 /* RedeemView.swift */,
+				DFA6C355247FD13700433689 /* FilterSimpleCell.swift */,
+				DFA6C356247FD13700433689 /* VSPINView.swift */,
+				DFA6C357247FD13700433689 /* FriendSearch.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFA6C328247FD13700433689 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6C329247FD13700433689 /* HistoryTableViewCell.swift */,
+				DFA6C32A247FD13700433689 /* FilterCell.swift */,
+				DFA6C32B247FD13700433689 /* DataWithLockTableViewCell.swift */,
+				DFA6C32C247FD13700433689 /* MainDetailsTableViewCell.swift */,
+				DFA6C32D247FD13700433689 /* OfferedInProductTableViewCell.swift */,
+				DFA6C32E247FD13700433689 /* IconCollectionViewCell.swift */,
+				DFA6C32F247FD13700433689 /* FavouriteTableViewCell.swift */,
+				DFA6C330247FD13700433689 /* LocationTableViewCell.swift */,
+				DFA6C331247FD13700433689 /* AlternateTableViewCell.swift */,
+				DFA6C332247FD13700433689 /* AccountTableViewCell.swift */,
+				DFA6C333247FD13700433689 /* BannerImageCollectionViewCell.swift */,
+				DFA6C334247FD13700433689 /* DataWithoutLockTableViewCell.swift */,
+				DFA6C335247FD13700433689 /* NotificationImageTableViewCell.swift */,
+				DFA6C336247FD13700433689 /* DetailsCollectionViewCell.swift */,
+				DFA6C337247FD13700433689 /* BannerCollectionViewCell.swift */,
+				DFA6C338247FD13700433689 /* PingTableViewCell.swift */,
+				DFA6C339247FD13700433689 /* DataCollectionViewCell.swift */,
+				DFA6C33A247FD13700433689 /* AreaTableViewCell.swift */,
+				DFA6C33B247FD13700433689 /* OfferDetailsTableViewCell.swift */,
+				DFA6C33C247FD13700433689 /* SelectionTableViewCell.swift */,
+				DFA6C33D247FD13700433689 /* OptionsCollectionViewCell.swift */,
+				DFA6C33E247FD13700433689 /* CategoryTableViewCell.swift */,
+				DFA6C33F247FD13700433689 /* DashboardOfferIconCell.swift */,
+				DFA6C340247FD13700433689 /* ItemListTableViewCell.swift */,
+				DFA6C341247FD13700433689 /* ProductTableViewCell.swift */,
+				DFA6C342247FD13700433689 /* DetailMapTableViewCell.swift */,
+				DFA6C343247FD13700433689 /* SearchTableViewCell.swift */,
+				DFA6C344247FD13700433689 /* AllLevelBagdeTableViewCell.swift */,
+				DFA6C345247FD13700433689 /* CellPopUpTable.swift */,
+				DFA6C346247FD13700433689 /* DashboardOfferBannerCell.swift */,
+				DFA6C347247FD13700433689 /* DetailListCollectionViewCell.swift */,
+				DFA6C348247FD13700433689 /* CompanyDescriptionTableViewCell.swift */,
+				DFA6C349247FD13700433689 /* NotificationTextTableViewCell.swift */,
+				DFA6C34A247FD13700433689 /* HomeVendorLogoTableViewCell.swift */,
+				DFA6C34B247FD13700433689 /* DataWithSwitchTableViewCell.swift */,
+				DFA6C34C247FD13700433689 /* VoucherTableViewCell.swift */,
+				DFA6C34D247FD13700433689 /* HeaderTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ED16BF4A46A09BB787172B62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B95BD8D4D37999C89812F1F /* Pods-TakafulVouch.debug.xcconfig */,
+				E773F3EA2D827885944EE645 /* Pods-TakafulVouch.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +828,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA6C276247FC84100433689 /* TakafulVouch.h in Headers */,
+				DFA6C3C9247FD13700433689 /* APPinView.h in Headers */,
+				DFA6C3C8247FD13700433689 /* APPinViewController.h in Headers */,
+				DFA6C369247FD13700433689 /* TakafulVouch.h in Headers */,
+				DFA6C3C7247FD13700433689 /* MPGTextField.h in Headers */,
+				DFA6C423247FD13700433689 /* Voucher365-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +843,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFA6C279247FC84100433689 /* Build configuration list for PBXNativeTarget "TakafulVouch" */;
 			buildPhases = (
+				1F1E455DEB59CCC79FD2B8C1 /* [CP] Check Pods Manifest.lock */,
 				DFA6C26C247FC84100433689 /* Headers */,
 				DFA6C26D247FC84100433689 /* Sources */,
 				DFA6C26E247FC84100433689 /* Frameworks */,
 				DFA6C26F247FC84100433689 /* Resources */,
+				1AA06995FBFA86E345F41D3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,16 +896,255 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA6C36F247FD13700433689 /* pinViewUnSelected.png in Resources */,
+				DFA6C380247FD13700433689 /* GIF-10.jpg in Resources */,
+				DFA6C390247FD13700433689 /* GIF-46.jpg in Resources */,
+				DFA6C374247FD13700433689 /* Account-Pso.storyboard in Resources */,
+				DFA6C37D247FD13700433689 /* GIF-01.jpg in Resources */,
+				DFA6C397247FD13700433689 /* GIF-22.jpg in Resources */,
+				DFA6C392247FD13700433689 /* GIF-45.jpg in Resources */,
+				DFA6C376247FD13700433689 /* Main-Pso.storyboard in Resources */,
+				DFA6C3A4247FD13700433689 /* GIF-26.jpg in Resources */,
+				DFA6C3BB247FD13700433689 /* TakafulVouch.plist in Resources */,
+				DFA6C39F247FD13700433689 /* GIF-25.jpg in Resources */,
+				DFA6C36D247FD13700433689 /* pinViewSelected.png in Resources */,
+				DFA6C3A8247FD13700433689 /* A.xcassets in Resources */,
+				DFA6C383247FD13700433689 /* GIF-39.jpg in Resources */,
+				DFA6C398247FD13700433689 /* GIF-08.jpg in Resources */,
+				DFA6C377247FD13700433689 /* GIF-02.jpg in Resources */,
+				DFA6C382247FD13700433689 /* GIF-38.jpg in Resources */,
+				DFA6C394247FD13700433689 /* GIF-23.jpg in Resources */,
+				DFA6C388247FD13700433689 /* GIF-12.jpg in Resources */,
+				DFA6C35F247FD13700433689 /* View_Profile.xib in Resources */,
+				DFA6C37C247FD13700433689 /* GIF-15.jpg in Resources */,
+				DFA6C375247FD13700433689 /* Login-Pso.storyboard in Resources */,
+				DFA6C363247FD13700433689 /* VSPINView.xib in Resources */,
+				DFA6C360247FD13700433689 /* FilterSimpleCell.xib in Resources */,
+				DFA6C362247FD13700433689 /* ViewOffer.xib in Resources */,
+				DFA6C38A247FD13700433689 /* GIF-48.jpg in Resources */,
+				DFA6C381247FD13700433689 /* GIF-04.jpg in Resources */,
+				DFA6C39D247FD13700433689 /* GIF-09.jpg in Resources */,
+				DFA6C3A6247FD13700433689 /* GIF-33.jpg in Resources */,
+				DFA6C379247FD13700433689 /* GIF-17.jpg in Resources */,
+				DFA6C3A7247FD13700433689 /* GIF-27.jpg in Resources */,
+				DFA6C37B247FD13700433689 /* GIF-29.jpg in Resources */,
+				DFA6C395247FD13700433689 /* GIF-37.jpg in Resources */,
+				DFA6C35D247FD13700433689 /* SelectionTableViewCell.xib in Resources */,
+				DFA6C364247FD13700433689 /* RedeemView.xib in Resources */,
+				DFA6C3A9247FD13700433689 /* loader.gif in Resources */,
+				DFA6C389247FD13700433689 /* GIF-06.jpg in Resources */,
+				DFA6C3A5247FD13700433689 /* GIF-32.jpg in Resources */,
+				DFA6C361247FD13700433689 /* GifLoader.xib in Resources */,
+				DFA6C385247FD13700433689 /* GIF-11.jpg in Resources */,
+				DFA6C39B247FD13700433689 /* GIF-21.jpg in Resources */,
+				DFA6C3A2247FD13700433689 /* GIF-24.jpg in Resources */,
+				DFA6C399247FD13700433689 /* GIF-34.jpg in Resources */,
+				DFA6C3A1247FD13700433689 /* GIF-18.jpg in Resources */,
+				DFA6C387247FD13700433689 /* GIF-13.jpg in Resources */,
+				DFA6C38F247FD13700433689 /* GIF-42.jpg in Resources */,
+				DFA6C36E247FD13700433689 /* pinViewSelected@2x.png in Resources */,
+				DFA6C38E247FD13700433689 /* GIF-43.jpg in Resources */,
+				DFA6C386247FD13700433689 /* GIF-07.jpg in Resources */,
+				DFA6C38C247FD13700433689 /* GIF-40.jpg in Resources */,
+				DFA6C39A247FD13700433689 /* GIF-20.jpg in Resources */,
+				DFA6C391247FD13700433689 /* GIF-47.jpg in Resources */,
+				DFA6C37A247FD13700433689 /* GIF-03.jpg in Resources */,
+				DFA6C3A3247FD13700433689 /* GIF-30.jpg in Resources */,
+				DFA6C371247FD13700433689 /* pinViewUnSelected@2x.png in Resources */,
+				DFA6C35B247FD13700433689 /* RedeemPinView.xib in Resources */,
+				DFA6C3A0247FD13700433689 /* GIF-19.jpg in Resources */,
+				DFA6C365247FD13700433689 /* SucessRedeemView.xib in Resources */,
+				DFA6C393247FD13700433689 /* GIF-44.jpg in Resources */,
+				DFA6C378247FD13700433689 /* GIF-16.jpg in Resources */,
+				DFA6C38B247FD13700433689 /* splash11.jpg in Resources */,
+				DFA6C35C247FD13700433689 /* FriendSearch.xib in Resources */,
+				DFA6C35A247FD13700433689 /* APPinViewController.xib in Resources */,
+				DFA6C38D247FD13700433689 /* GIF-41.jpg in Resources */,
+				DFA6C384247FD13700433689 /* GIF-05.jpg in Resources */,
+				DFA6C37F247FD13700433689 /* GIF-28.jpg in Resources */,
+				DFA6C37E247FD13700433689 /* GIF-14.jpg in Resources */,
+				DFA6C396247FD13700433689 /* GIF-36.jpg in Resources */,
+				DFA6C39E247FD13700433689 /* GIF-31.jpg in Resources */,
+				DFA6C370247FD13700433689 /* splash_loading.gif in Resources */,
+				DFA6C39C247FD13700433689 /* GIF-35.jpg in Resources */,
+				DFA6C35E247FD13700433689 /* FilterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA06995FBFA86E345F41D3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakafulVouch/Pods-TakafulVouch-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakafulVouch/Pods-TakafulVouch-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakafulVouch/Pods-TakafulVouch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F1E455DEB59CCC79FD2B8C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakafulVouch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFA6C26D247FC84100433689 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA6C3AF247FD13700433689 /* NotificationVeer.swift in Sources */,
+				DFA6C3CA247FD13700433689 /* Bootstraper.swift in Sources */,
+				DFA6C36C247FD13700433689 /* MPGTextField.m in Sources */,
+				DFA6C3B4247FD13700433689 /* Category.swift in Sources */,
+				DFA6C3B1247FD13700433689 /* VoucherData.swift in Sources */,
+				DFA6C3FD247FD13700433689 /* AccountTableViewCell.swift in Sources */,
+				DFA6C3FC247FD13700433689 /* AlternateTableViewCell.swift in Sources */,
+				DFA6C373247FD13700433689 /* ServiceWrapper.swift in Sources */,
+				DFA6C3D5247FD13700433689 /* ProductViewController.swift in Sources */,
+				DFA6C3F8247FD13700433689 /* OfferedInProductTableViewCell.swift in Sources */,
+				DFA6C3AE247FD13700433689 /* Ping.swift in Sources */,
+				DFA6C3B9247FD13700433689 /* Level.swift in Sources */,
+				DFA6C3C2247FD13700433689 /* extension.swift in Sources */,
+				DFA6C3BF247FD13700433689 /* VSButton.swift in Sources */,
+				DFA6C3E8247FD13700433689 /* RootFavPingsViewController.swift in Sources */,
+				DFA6C3CB247FD13700433689 /* PingSentViewController.swift in Sources */,
+				DFA6C3D9247FD13700433689 /* VouchFriendsViewController.swift in Sources */,
+				DFA6C3BC247FD13700433689 /* Constants.swift in Sources */,
+				DFA6C41B247FD13700433689 /* FilterView.swift in Sources */,
+				DFA6C402247FD13700433689 /* BannerCollectionViewCell.swift in Sources */,
+				DFA6C419247FD13700433689 /* GifLoader.swift in Sources */,
+				DFA6C3E3247FD13700433689 /* AllBadgesViewController.swift in Sources */,
+				DFA6C3C6247FD13700433689 /* VSTextField.swift in Sources */,
+				DFA6C418247FD13700433689 /* HeaderTableViewCell.swift in Sources */,
+				DFA6C3FA247FD13700433689 /* FavouriteTableViewCell.swift in Sources */,
+				DFA6C421247FD13700433689 /* VSPINView.swift in Sources */,
+				DFA6C400247FD13700433689 /* NotificationImageTableViewCell.swift in Sources */,
+				DFA6C3AB247FD13700433689 /* Location.swift in Sources */,
+				DFA6C407247FD13700433689 /* SelectionTableViewCell.swift in Sources */,
+				DFA6C3EB247FD13700433689 /* FavouriteViewController.swift in Sources */,
+				DFA6C3E2247FD13700433689 /* OfferViewController.swift in Sources */,
+				DFA6C40D247FD13700433689 /* DetailMapTableViewCell.swift in Sources */,
+				DFA6C406247FD13700433689 /* OfferDetailsTableViewCell.swift in Sources */,
+				DFA6C3AD247FD13700433689 /* Friend.swift in Sources */,
+				DFA6C3C1247FD13700433689 /* UIBarButtonItem.ActionSheetPicker.swift in Sources */,
+				DFA6C3F4247FD13700433689 /* HistoryTableViewCell.swift in Sources */,
+				DFA6C3F3247FD13700433689 /* SucessRedeemView.swift in Sources */,
+				DFA6C3B5247FD13700433689 /* Voucher.swift in Sources */,
+				DFA6C3CE247FD13700433689 /* SearchTableViewController.swift in Sources */,
+				DFA6C3D1247FD13700433689 /* TutorialPageViewController.swift in Sources */,
+				DFA6C3D6247FD13700433689 /* DetailViewController.swift in Sources */,
+				DFA6C3E1247FD13700433689 /* TutorialViewController.swift in Sources */,
+				DFA6C3ED247FD13700433689 /* InviteViewController.swift in Sources */,
+				DFA6C41E247FD13700433689 /* ViewOffer.swift in Sources */,
+				DFA6C3E9247FD13700433689 /* PingReceivedViewController.swift in Sources */,
+				DFA6C413247FD13700433689 /* CompanyDescriptionTableViewCell.swift in Sources */,
+				DFA6C3EC247FD13700433689 /* PingsViewController.swift in Sources */,
+				DFA6C3F6247FD13700433689 /* DataWithLockTableViewCell.swift in Sources */,
+				DFA6C3C4247FD13700433689 /* String.swift in Sources */,
+				DFA6C401247FD13700433689 /* DetailsCollectionViewCell.swift in Sources */,
+				DFA6C3B6247FD13700433689 /* History.swift in Sources */,
+				DFA6C3D2247FD13700433689 /* LevelViewController.swift in Sources */,
+				DFA6C3C5247FD13700433689 /* FiltersArray.swift in Sources */,
+				DFA6C3D7247FD13700433689 /* LoaderViewController.swift in Sources */,
+				DFA6C3F0247FD13700433689 /* NotificationViewController.swift in Sources */,
+				DFA6C412247FD13700433689 /* DetailListCollectionViewCell.swift in Sources */,
+				DFA6C405247FD13700433689 /* AreaTableViewCell.swift in Sources */,
+				DFA6C3E4247FD13700433689 /* testViewController.swift in Sources */,
+				DFA6C3DF247FD13700433689 /* AllLevelsViewController.swift in Sources */,
+				DFA6C40F247FD13700433689 /* AllLevelBagdeTableViewCell.swift in Sources */,
+				DFA6C367247FD13700433689 /* VouchCity.swift in Sources */,
+				DFA6C403247FD13700433689 /* PingTableViewCell.swift in Sources */,
+				DFA6C422247FD13700433689 /* FriendSearch.swift in Sources */,
+				DFA6C3DA247FD13700433689 /* RootListMapViewController.swift in Sources */,
+				DFA6C368247FD13700433689 /* VouchUser.swift in Sources */,
+				DFA6C409247FD13700433689 /* CategoryTableViewCell.swift in Sources */,
+				DFA6C366247FD13700433689 /* StorageService.swift in Sources */,
+				DFA6C3BD247FD13700433689 /* Utilities.swift in Sources */,
+				DFA6C3F9247FD13700433689 /* IconCollectionViewCell.swift in Sources */,
+				DFA6C3B7247FD13700433689 /* Badge.swift in Sources */,
+				DFA6C3F7247FD13700433689 /* MainDetailsTableViewCell.swift in Sources */,
+				DFA6C420247FD13700433689 /* FilterSimpleCell.swift in Sources */,
+				DFA6C3B0247FD13700433689 /* HomeSaving.swift in Sources */,
+				DFA6C3BA247FD13700433689 /* PopUp.swift in Sources */,
+				DFA6C3EF247FD13700433689 /* DetailsViewController.swift in Sources */,
+				DFA6C3F5247FD13700433689 /* FilterCell.swift in Sources */,
+				DFA6C3D0247FD13700433689 /* CreatePinViewController.swift in Sources */,
+				DFA6C416247FD13700433689 /* DataWithSwitchTableViewCell.swift in Sources */,
+				DFA6C3E7247FD13700433689 /* MyInformationViewController.swift in Sources */,
+				DFA6C41F247FD13700433689 /* RedeemView.swift in Sources */,
+				DFA6C414247FD13700433689 /* NotificationTextTableViewCell.swift in Sources */,
+				DFA6C40A247FD13700433689 /* DashboardOfferIconCell.swift in Sources */,
+				DFA6C40E247FD13700433689 /* SearchTableViewCell.swift in Sources */,
+				DFA6C40B247FD13700433689 /* ItemListTableViewCell.swift in Sources */,
+				DFA6C36B247FD13700433689 /* APPinView.m in Sources */,
+				DFA6C3DD247FD13700433689 /* VouchManager.swift in Sources */,
+				DFA6C3AA247FD13700433689 /* Offer.swift in Sources */,
+				DFA6C36A247FD13700433689 /* APPinViewController.m in Sources */,
+				DFA6C3B3247FD13700433689 /* User.swift in Sources */,
+				DFA6C3CC247FD13700433689 /* ItemListingMapViewController.swift in Sources */,
+				DFA6C3D8247FD13700433689 /* WelcomeViewController.swift in Sources */,
+				DFA6C3DE247FD13700433689 /* RootOfferDetailsViewController.swift in Sources */,
+				DFA6C3B8247FD13700433689 /* Vouchers.swift in Sources */,
+				DFA6C3D3247FD13700433689 /* LocationsViewController.swift in Sources */,
+				DFA6C415247FD13700433689 /* HomeVendorLogoTableViewCell.swift in Sources */,
+				DFA6C3DC247FD13700433689 /* FullScreenPopUpViewController.swift in Sources */,
+				DFA6C3D4247FD13700433689 /* RootViewController.swift in Sources */,
+				DFA6C3CF247FD13700433689 /* PurchaseHistoryViewController.swift in Sources */,
+				DFA6C3CD247FD13700433689 /* PingHistoryViewController.swift in Sources */,
+				DFA6C3E5247FD13700433689 /* PinViewViewController.swift in Sources */,
+				DFA6C3AC247FD13700433689 /* CompanyDetail.swift in Sources */,
+				DFA6C3F2247FD13700433689 /* AccountViewController.swift in Sources */,
+				DFA6C411247FD13700433689 /* DashboardOfferBannerCell.swift in Sources */,
+				DFA6C3BE247FD13700433689 /* VSLabel.swift in Sources */,
+				DFA6C3F1247FD13700433689 /* VouchMapListingViewController.swift in Sources */,
+				DFA6C3EE247FD13700433689 /* ProfileViewController.swift in Sources */,
+				DFA6C3FF247FD13700433689 /* DataWithoutLockTableViewCell.swift in Sources */,
+				DFA6C41A247FD13700433689 /* View_Profile.swift in Sources */,
+				DFA6C3DB247FD13700433689 /* VouchPointsViewController.swift in Sources */,
+				DFA6C372247FD13700433689 /* ServiceLayer.swift in Sources */,
+				DFA6C3E6247FD13700433689 /* AlternateTableViewController.swift in Sources */,
+				DFA6C41C247FD13700433689 /* RedeemPinView.swift in Sources */,
+				DFA6C40C247FD13700433689 /* ProductTableViewCell.swift in Sources */,
+				DFA6C3E0247FD13700433689 /* HomeViewController.swift in Sources */,
+				DFA6C3C0247FD13700433689 /* Countries.swift in Sources */,
+				DFA6C404247FD13700433689 /* DataCollectionViewCell.swift in Sources */,
+				DFA6C408247FD13700433689 /* OptionsCollectionViewCell.swift in Sources */,
+				DFA6C410247FD13700433689 /* CellPopUpTable.swift in Sources */,
+				DFA6C417247FD13700433689 /* VoucherTableViewCell.swift in Sources */,
+				DFA6C3FE247FD13700433689 /* BannerImageCollectionViewCell.swift in Sources */,
+				DFA6C3FB247FD13700433689 /* LocationTableViewCell.swift in Sources */,
+				DFA6C3B2247FD13700433689 /* UserProfile.swift in Sources */,
+				DFA6C3EA247FD13700433689 /* BrowserViewController.swift in Sources */,
+				DFA6C3C3247FD13700433689 /* UIColor.StyleGuide.swift in Sources */,
+				DFA6C41D247FD13700433689 /* SelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,13 +1273,14 @@
 		};
 		DFA6C27A247FC84100433689 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B95BD8D4D37999C89812F1F /* Pods-TakafulVouch.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TakafulVouch/Info.plist;
+				INFOPLIST_FILE = TakafulVouch/TakafulVouch.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -282,13 +1297,14 @@
 		};
 		DFA6C27B247FC84100433689 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E773F3EA2D827885944EE645 /* Pods-TakafulVouch.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TakafulVouch/Info.plist;
+				INFOPLIST_FILE = TakafulVouch/TakafulVouch.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

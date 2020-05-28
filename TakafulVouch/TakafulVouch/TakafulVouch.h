@@ -7,13 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "APPinViewController.h"
+#import "APPinView.h"
 
-//! Project version number for TakafulVouch.
 FOUNDATION_EXPORT double TakafulVouchVersionNumber;
 
-//! Project version string for TakafulVouch.
+//! Project version string for asd.
 FOUNDATION_EXPORT const unsigned char TakafulVouchVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <TakafulVouch/PublicHeader.h>
-
 
