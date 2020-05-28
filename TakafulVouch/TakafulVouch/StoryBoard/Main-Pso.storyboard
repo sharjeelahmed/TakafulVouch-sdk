@@ -20,7 +20,7 @@
         <!--NotificationViewController-->
         <scene sceneID="c9p-8x-JTG">
             <objects>
-                <viewController id="Fro-Zw-M53" userLabel="NotificationViewController" customClass="NotificationViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Fro-Zw-M53" userLabel="NotificationViewController" customClass="NotificationViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yly-Od-ORV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,7 @@
                                 <rect key="frame" x="10" y="44" width="355" height="574"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="imageCell" rowHeight="282" id="2ob-l2-vdR" customClass="NotificationImageTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="imageCell" rowHeight="282" id="2ob-l2-vdR" customClass="NotificationImageTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="355" height="282"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2ob-l2-vdR" id="lGt-tb-aun">
@@ -159,7 +159,7 @@
                                             <outlet property="title_lbl" destination="NEL-2N-RKF" id="q6U-bu-H33"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="textCell" rowHeight="84" id="eeb-He-QLd" customClass="NotificationTextTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="textCell" rowHeight="84" id="eeb-He-QLd" customClass="NotificationTextTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="310" width="355" height="84"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eeb-He-QLd" id="6Vg-rh-q7I">
@@ -284,7 +284,7 @@
         <!--All Levels View Controller-->
         <scene sceneID="s9I-gx-pp2">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="2b5-nB-CIi" customClass="AllLevelsViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="2b5-nB-CIi" customClass="AllLevelsViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ubW-M8-55q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -293,7 +293,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllLevelBagdeTableViewCell" id="LYa-P0-Kpu" customClass="AllLevelBagdeTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllLevelBagdeTableViewCell" id="LYa-P0-Kpu" customClass="AllLevelBagdeTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LYa-P0-Kpu" id="g2t-tu-kxo">
@@ -364,7 +364,7 @@
         <!--All Badges View Controller-->
         <scene sceneID="vmK-7O-RbS">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="Qsk-R9-Vcj" customClass="AllBadgesViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="Qsk-R9-Vcj" customClass="AllBadgesViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CeU-bR-NLg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -373,7 +373,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllLevelBagdeTableViewCell" id="rlL-nf-9zn" customClass="AllLevelBagdeTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllLevelBagdeTableViewCell" id="rlL-nf-9zn" customClass="AllLevelBagdeTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rlL-nf-9zn" id="bJE-tj-sDP">
@@ -471,7 +471,7 @@
         <!--ProfileViewController-->
         <scene sceneID="Smp-np-7J2">
             <objects>
-                <viewController id="Yqs-ol-M2L" userLabel="ProfileViewController" customClass="ProfileViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yqs-ol-M2L" userLabel="ProfileViewController" customClass="ProfileViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZFy-ox-aoe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -631,7 +631,7 @@
         <!--ProductViewController-->
         <scene sceneID="mtR-Bv-FSF">
             <objects>
-                <viewController id="SQg-gS-pA8" userLabel="ProductViewController" customClass="ProductViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SQg-gS-pA8" userLabel="ProductViewController" customClass="ProductViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T9P-9O-Z6a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -663,7 +663,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductTableViewCell" rowHeight="185" id="mlt-5p-ljZ" customClass="ProductTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductTableViewCell" rowHeight="185" id="mlt-5p-ljZ" customClass="ProductTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="185"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mlt-5p-ljZ" id="GI4-Wq-Wct">
@@ -801,7 +801,7 @@
         <!--HomeViewController-->
         <scene sceneID="zXw-5d-Deu">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="Jop-lZ-L0f" userLabel="HomeViewController" customClass="HomeViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="Jop-lZ-L0f" userLabel="HomeViewController" customClass="HomeViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lFE-2V-dV3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="751"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -868,7 +868,7 @@
                                                 <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                             </collectionViewFlowLayout>
                                             <cells>
-                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerImageCollectionViewCell" id="kc9-IQ-dIE" customClass="BannerImageCollectionViewCell" customModule="Pso_live" customModuleProvider="target">
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerImageCollectionViewCell" id="kc9-IQ-dIE" customClass="BannerImageCollectionViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="296"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -916,7 +916,7 @@
                                                         <outlet property="label_title" destination="CS1-1U-Z5v" id="SdU-42-G9L"/>
                                                     </connections>
                                                 </collectionViewCell>
-                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DataCollectionViewCell" id="Em0-iH-P96" customClass="DataCollectionViewCell" customModule="Pso_live" customModuleProvider="target">
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DataCollectionViewCell" id="Em0-iH-P96" customClass="DataCollectionViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                                     <rect key="frame" x="375" y="0.0" width="375" height="296"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1112,7 +1112,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DashboardOfferIconCell" rowHeight="90" id="QUP-Ie-crH" customClass="DashboardOfferIconCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DashboardOfferIconCell" rowHeight="90" id="QUP-Ie-crH" customClass="DashboardOfferIconCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="324" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QUP-Ie-crH" id="bT8-9Q-f3f">
@@ -1130,7 +1130,7 @@
                                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     </collectionViewFlowLayout>
                                                     <cells>
-                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="IconCollectionViewCell" id="lYe-hb-TXo" customClass="IconCollectionViewCell" customModule="Pso_live" customModuleProvider="target">
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="IconCollectionViewCell" id="lYe-hb-TXo" customClass="IconCollectionViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="5" width="40" height="80"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1199,7 +1199,7 @@
                                             <outlet property="collectionView" destination="o3h-gG-clu" id="yyx-4H-xXZ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeVendorLogoTableViewCell" rowHeight="235" id="gNq-KW-Uad" customClass="HomeVendorLogoTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeVendorLogoTableViewCell" rowHeight="235" id="gNq-KW-Uad" customClass="HomeVendorLogoTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="414" width="375" height="235"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gNq-KW-Uad" id="r1G-KS-jqy">
@@ -1226,7 +1226,7 @@
                                             <outlet property="vendorLogo" destination="Sgi-h8-FY3" id="USu-b8-LeB"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DashboardOfferBannerCell" rowHeight="235" id="ldd-N8-WuM" customClass="DashboardOfferBannerCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DashboardOfferBannerCell" rowHeight="235" id="ldd-N8-WuM" customClass="DashboardOfferBannerCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="649" width="375" height="235"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ldd-N8-WuM" id="Gnz-Kl-xZ1">
@@ -1269,7 +1269,7 @@
                                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     </collectionViewFlowLayout>
                                                     <cells>
-                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerCollectionViewCell" id="0zi-Ci-RFo" customClass="BannerCollectionViewCell" customModule="Pso_live" customModuleProvider="target">
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerCollectionViewCell" id="0zi-Ci-RFo" customClass="BannerCollectionViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="5" width="376" height="180"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1370,7 +1370,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter at least 3 letters to get appropriate results." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Org-dg-qq8" customClass="VSLabel" customModule="Pso_live" customModuleProvider="target">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter at least 3 letters to get appropriate results." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Org-dg-qq8" customClass="VSLabel" customModule="TakafulVouch" customModuleProvider="target">
                                             <rect key="frame" x="18.5" y="14" width="338" height="16"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <nil key="textColor"/>
@@ -1384,7 +1384,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeSearchCell" rowHeight="79" id="TfZ-rE-Maw" customClass="CategoryTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeSearchCell" rowHeight="79" id="TfZ-rE-Maw" customClass="CategoryTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="72" width="375" height="79"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TfZ-rE-Maw" id="kLD-KW-STr">
@@ -1506,7 +1506,7 @@
                         <outlet property="view_connect" destination="rMu-au-IZr" id="XiO-7Y-xL0"/>
                     </connections>
                 </viewController>
-                <view contentMode="scaleToFill" id="eAu-21-uVR" customClass="SelectionView" customModule="Pso_live" customModuleProvider="target">
+                <view contentMode="scaleToFill" id="eAu-21-uVR" customClass="SelectionView" customModule="TakafulVouch" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
@@ -1578,7 +1578,7 @@
         <!--Root List Map View Controller-->
         <scene sceneID="HWJ-VS-Gmj">
             <objects>
-                <viewController storyboardIdentifier="RootListMapViewController" id="O8G-Bg-tC7" customClass="RootListMapViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootListMapViewController" id="O8G-Bg-tC7" customClass="RootListMapViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AWX-Zn-CDD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1596,7 +1596,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DetailListCollectionViewCell" id="QG6-r1-fiJ" customClass="DetailListCollectionViewCell" customModule="Pso_live" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DetailListCollectionViewCell" id="QG6-r1-fiJ" customClass="DetailListCollectionViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="190" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1740,7 +1740,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0La-Ng-5B9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="67G-FV-Lnv" customClass="FilterView" customModule="Pso_live" customModuleProvider="target">
+                <view contentMode="scaleToFill" id="67G-FV-Lnv" customClass="FilterView" customModule="TakafulVouch" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
@@ -1821,7 +1821,7 @@
         <!--Root Offer Details View Controller-->
         <scene sceneID="22R-Be-bMD">
             <objects>
-                <viewController storyboardIdentifier="RootOfferDetailsViewController" id="Yl5-qd-o0i" customClass="RootOfferDetailsViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootOfferDetailsViewController" id="Yl5-qd-o0i" customClass="RootOfferDetailsViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze0-mn-v98">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1932,7 +1932,7 @@
         <!--Offer View Controller-->
         <scene sceneID="hFr-72-4ro">
             <objects>
-                <viewController storyboardIdentifier="OfferViewController" id="4q3-LZ-dJd" customClass="OfferViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OfferViewController" id="4q3-LZ-dJd" customClass="OfferViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="poE-I4-COF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="622"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1954,7 +1954,7 @@
                                                 <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                             </collectionViewFlowLayout>
                                             <cells>
-                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerImageCollectionViewCell" id="YSd-nE-mKM" customClass="BannerImageCollectionViewCell" customModule="Pso_live" customModuleProvider="target">
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerImageCollectionViewCell" id="YSd-nE-mKM" customClass="BannerImageCollectionViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -2066,7 +2066,7 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AreaTableViewCell" rowHeight="40" id="QFN-0a-Efo" customClass="AreaTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AreaTableViewCell" rowHeight="40" id="QFN-0a-Efo" customClass="AreaTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="228" width="375" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QFN-0a-Efo" id="GRn-cl-f5t">
@@ -2095,7 +2095,7 @@
                                             <outlet property="label_areaname" destination="gnd-1S-Wgx" id="C8c-Vy-v0c"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OfferedInProductTableViewCell" rowHeight="40" id="C0T-da-ltW" customClass="OfferedInProductTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OfferedInProductTableViewCell" rowHeight="40" id="C0T-da-ltW" customClass="OfferedInProductTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="268" width="375" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C0T-da-ltW" id="i4Y-i9-bwy">
@@ -2128,7 +2128,7 @@
                                             <outlet property="label_title" destination="txf-p0-4ga" id="IKn-0u-uFk"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VoucherTableViewCell" rowHeight="60" id="ohi-Q2-dZj" customClass="VoucherTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VoucherTableViewCell" rowHeight="60" id="ohi-Q2-dZj" customClass="VoucherTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="308" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ohi-Q2-dZj" id="yC7-tj-vnF">
@@ -2268,7 +2268,7 @@
         <!--Details View Controller-->
         <scene sceneID="fmG-3n-pzJ">
             <objects>
-                <viewController storyboardIdentifier="DetailsViewController" id="LC5-gL-PgK" customClass="DetailsViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailsViewController" id="LC5-gL-PgK" customClass="DetailsViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QCj-kR-5GV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="622"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2277,7 +2277,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="622"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MainDetailsTableViewCell" rowHeight="90" id="Ful-5i-fPc" customClass="MainDetailsTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MainDetailsTableViewCell" rowHeight="90" id="Ful-5i-fPc" customClass="MainDetailsTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ful-5i-fPc" id="ODV-QB-5u6">
@@ -2339,7 +2339,7 @@
                                             <outlet property="label_type" destination="V8k-jK-avH" id="FXt-iL-UvZ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CompanyDescriptionTableViewCell" rowHeight="120" id="vtZ-hc-qPe" customClass="CompanyDescriptionTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CompanyDescriptionTableViewCell" rowHeight="120" id="vtZ-hc-qPe" customClass="CompanyDescriptionTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="118" width="375" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vtZ-hc-qPe" id="KcX-VY-cpj">
@@ -2396,7 +2396,7 @@
                                                         <inset key="sectionInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                                     </collectionViewFlowLayout>
                                                     <cells>
-                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DetailsCollectionViewCell" id="oOo-yY-mv1" customClass="DetailsCollectionViewCell" customModule="Pso_live" customModuleProvider="target">
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DetailsCollectionViewCell" id="oOo-yY-mv1" customClass="DetailsCollectionViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                                             <rect key="frame" x="15" y="-0.5" width="55" height="75.5"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -2479,7 +2479,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_map" rowHeight="156" id="ZwV-gd-DEG" customClass="DetailMapTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_map" rowHeight="156" id="ZwV-gd-DEG" customClass="DetailMapTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="380" width="375" height="156"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZwV-gd-DEG" id="qdy-Jj-mlS">
@@ -2507,7 +2507,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OfferDetailsTableViewCell" rowHeight="40" id="cOn-u6-fkN" customClass="OfferDetailsTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OfferDetailsTableViewCell" rowHeight="40" id="cOn-u6-fkN" customClass="OfferDetailsTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="574" width="375" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cOn-u6-fkN" id="urN-te-FyY">
@@ -2596,7 +2596,7 @@
         <!--Favourite View Controller-->
         <scene sceneID="FcV-NB-DSe">
             <objects>
-                <viewController storyboardIdentifier="FavouriteViewController" id="ah9-vr-KPg" customClass="FavouriteViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FavouriteViewController" id="ah9-vr-KPg" customClass="FavouriteViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XcZ-0G-EYD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="529"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2636,7 +2636,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="529"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="FavouriteTableViewCell" rowHeight="72" id="fYh-wj-qYM" customClass="FavouriteTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="FavouriteTableViewCell" rowHeight="72" id="fYh-wj-qYM" customClass="FavouriteTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fYh-wj-qYM" id="R7b-Qd-f0q">
@@ -2722,7 +2722,7 @@
         <!--Pings View Controller-->
         <scene sceneID="mqA-rz-s0P">
             <objects>
-                <viewController storyboardIdentifier="PingsViewController" id="Zk8-ER-I80" customClass="PingsViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PingsViewController" id="Zk8-ER-I80" customClass="PingsViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8WF-4c-amb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="529"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2762,7 +2762,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="529"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PingTableViewCell" rowHeight="72" id="9XJ-p3-3YW" customClass="PingTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PingTableViewCell" rowHeight="72" id="9XJ-p3-3YW" customClass="PingTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9XJ-p3-3YW" id="cNm-UB-hjn">
@@ -2969,7 +2969,7 @@
         <!--Invite View Controller-->
         <scene sceneID="vcR-Yk-J2a">
             <objects>
-                <viewController storyboardIdentifier="InviteViewController" id="l4f-kI-4Xx" customClass="InviteViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InviteViewController" id="l4f-kI-4Xx" customClass="InviteViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DDZ-hy-sgI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3073,7 +3073,7 @@
         <!--Item Listing Map View Controller-->
         <scene sceneID="rZQ-R2-aIo">
             <objects>
-                <viewController storyboardIdentifier="ItemListingMapViewController" id="Pa0-tx-TWi" customClass="ItemListingMapViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ItemListingMapViewController" id="Pa0-tx-TWi" customClass="ItemListingMapViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6aY-9j-ihe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="579"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3090,7 +3090,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="579"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryTableViewCell" rowHeight="80" id="rs3-2h-LQy" customClass="CategoryTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryTableViewCell" rowHeight="80" id="rs3-2h-LQy" customClass="CategoryTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rs3-2h-LQy" id="I01-po-nE5">
@@ -3196,7 +3196,7 @@
         <!--Locations View Controller-->
         <scene sceneID="zUe-e5-KbV">
             <objects>
-                <viewController id="1H7-Mm-MwM" customClass="LocationsViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1H7-Mm-MwM" customClass="LocationsViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R2x-07-cJG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3227,7 +3227,7 @@
                                 <rect key="frame" x="0.0" y="88" width="375" height="579"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocationTableViewCell" rowHeight="55" id="WSp-Eg-LV2" customClass="LocationTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocationTableViewCell" rowHeight="55" id="WSp-Eg-LV2" customClass="LocationTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WSp-Eg-LV2" id="Yuh-0A-uLb">
@@ -3300,7 +3300,7 @@
         <!--Search Table View Controller-->
         <scene sceneID="yKD-8c-de2">
             <objects>
-                <tableViewController id="Cgz-da-KXn" customClass="SearchTableViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Cgz-da-KXn" customClass="SearchTableViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="aOt-jc-lbi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3323,7 +3323,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryTableViewCell" rowHeight="80" id="Ldr-X1-Vs1" customClass="CategoryTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryTableViewCell" rowHeight="80" id="Ldr-X1-Vs1" customClass="CategoryTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="128" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ldr-X1-Vs1" id="i8x-vB-die">
@@ -3426,7 +3426,7 @@
         <!--Vouch Points View Controller-->
         <scene sceneID="hfp-Uc-FCq">
             <objects>
-                <viewController storyboardIdentifier="VouchPointsViewController" id="bmP-Fs-VBC" customClass="VouchPointsViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VouchPointsViewController" id="bmP-Fs-VBC" customClass="VouchPointsViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jue-yA-r0o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="360"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3649,7 +3649,7 @@
         <!--Vouch Friends View Controller-->
         <scene sceneID="ytU-Nh-Dx4">
             <objects>
-                <viewController storyboardIdentifier="VouchFriendsViewController" id="Ray-vl-sFP" customClass="VouchFriendsViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VouchFriendsViewController" id="Ray-vl-sFP" customClass="VouchFriendsViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Sl-Ct-Aof">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="360"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3766,7 +3766,7 @@
         <!--Level View Controller-->
         <scene sceneID="gQ9-rI-Fgg">
             <objects>
-                <viewController storyboardIdentifier="LevelViewController" id="V0B-SI-7Vz" customClass="LevelViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LevelViewController" id="V0B-SI-7Vz" customClass="LevelViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mVA-sT-Ryk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="360"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3939,7 +3939,7 @@
         <!--Root Fav Pings View Controller-->
         <scene sceneID="u8c-QR-4yn">
             <objects>
-                <viewController storyboardIdentifier="RootViewController" id="qCY-HY-Ohf" customClass="RootFavPingsViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootViewController" id="qCY-HY-Ohf" customClass="RootFavPingsViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="imJ-N9-wjc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4023,7 +4023,7 @@
         <!--Account View Controller-->
         <scene sceneID="0XJ-Fp-X11">
             <objects>
-                <viewController storyboardIdentifier="AccountViewController" id="hdH-CB-RfP" customClass="AccountViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AccountViewController" id="hdH-CB-RfP" customClass="AccountViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FLi-HM-05M"/>
                         <viewControllerLayoutGuide type="bottom" id="6Ju-75-xAX"/>
@@ -4036,7 +4036,7 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AccountTableViewCell" id="afl-2N-2m4" customClass="AccountTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AccountTableViewCell" id="afl-2N-2m4" customClass="AccountTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="afl-2N-2m4" id="gz8-3j-aEL">
@@ -4091,7 +4091,7 @@
         <!--Full Screen Pop Up View Controller-->
         <scene sceneID="J9q-rV-lNj">
             <objects>
-                <viewController storyboardIdentifier="FullScreenPopUpViewController" id="4KY-pD-pkA" customClass="FullScreenPopUpViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FullScreenPopUpViewController" id="4KY-pD-pkA" customClass="FullScreenPopUpViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FNh-0z-5sv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

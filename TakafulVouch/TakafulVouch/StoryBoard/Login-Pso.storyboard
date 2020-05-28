@@ -21,7 +21,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="8hR-pD-bOD">
             <objects>
-                <viewController storyboardIdentifier="SignUpViewController" id="wF6-pC-6J3" customClass="SignUpViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="wF6-pC-6J3" customClass="SignUpViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HTl-UM-fZz"/>
                         <viewControllerLayoutGuide type="bottom" id="UwH-Yu-e1X"/>
@@ -39,7 +39,7 @@
                                     <outlet property="delegate" destination="wF6-pC-6J3" id="FZJ-u7-OJn"/>
                                 </connections>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Du7-sD-cwF" customClass="VSLabel" customModule="Pso_live" customModuleProvider="target">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Du7-sD-cwF" customClass="VSLabel" customModule="TakafulVouch" customModuleProvider="target">
                                 <rect key="frame" x="16" y="47" width="3.5" height="14"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="1" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,7 +54,7 @@
                                     <outlet property="delegate" destination="wF6-pC-6J3" id="AbV-Sl-Yxo"/>
                                 </connections>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXB-jT-XHz" customClass="VSLabel" customModule="Pso_live" customModuleProvider="target">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXB-jT-XHz" customClass="VSLabel" customModule="TakafulVouch" customModuleProvider="target">
                                 <rect key="frame" x="16" y="99" width="3.5" height="14"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="1" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
@@ -69,7 +69,7 @@
                                     <outlet property="delegate" destination="wF6-pC-6J3" id="TnB-Y7-qKp"/>
                                 </connections>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ze3-4q-rVH" customClass="VSLabel" customModule="Pso_live" customModuleProvider="target">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ze3-4q-rVH" customClass="VSLabel" customModule="TakafulVouch" customModuleProvider="target">
                                 <rect key="frame" x="16" y="152" width="3.5" height="14"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="1" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
@@ -84,7 +84,7 @@
                                     <outlet property="delegate" destination="wF6-pC-6J3" id="Ukq-tp-Q5Z"/>
                                 </connections>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoD-x4-UBW" customClass="VSLabel" customModule="Pso_live" customModuleProvider="target">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoD-x4-UBW" customClass="VSLabel" customModule="TakafulVouch" customModuleProvider="target">
                                 <rect key="frame" x="16" y="205.5" width="3.5" height="14"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="1" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
@@ -99,7 +99,7 @@
                                     <outlet property="delegate" destination="wF6-pC-6J3" id="rug-U9-G2u"/>
                                 </connections>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PY-uK-MNw" customClass="VSLabel" customModule="Pso_live" customModuleProvider="target">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PY-uK-MNw" customClass="VSLabel" customModule="TakafulVouch" customModuleProvider="target">
                                 <rect key="frame" x="16" y="259" width="3.5" height="14"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="1" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
@@ -291,7 +291,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kcq-8S-GvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="QfK-0t-2B7" customClass="SelectionView" customModule="Pso_live" customModuleProvider="target">
+                <view contentMode="scaleToFill" id="QfK-0t-2B7" customClass="SelectionView" customModule="TakafulVouch" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
@@ -406,7 +406,7 @@
                                     <rect key="frame" x="0.0" y="50" width="359" height="426.5"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <prototypes>
-                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellPOPTable" id="ttH-Mf-jzf" customClass="CellPopUpTable" customModule="Pso_live" customModuleProvider="target">
+                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellPOPTable" id="ttH-Mf-jzf" customClass="CellPopUpTable" customModule="TakafulVouch" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="28" width="359" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ttH-Mf-jzf" id="JaG-fd-Wic">
@@ -469,7 +469,7 @@
         <!--Pin View View Controller-->
         <scene sceneID="9NG-Sg-L8p">
             <objects>
-                <viewController storyboardIdentifier="PinViewViewController" id="rm1-tt-goG" customClass="PinViewViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PinViewViewController" id="rm1-tt-goG" customClass="PinViewViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OeS-Nw-A2n"/>
                         <viewControllerLayoutGuide type="bottom" id="2pB-jS-FNF"/>
@@ -607,7 +607,7 @@ You will use it to secure redeem offers</string>
         <!--Login View Controller-->
         <scene sceneID="UOE-G5-bFv">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="XuA-NG-iW4" customClass="LoginViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="XuA-NG-iW4" customClass="LoginViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Jl-Fz-3Gw"/>
                         <viewControllerLayoutGuide type="bottom" id="jxq-np-mNe"/>
@@ -625,7 +625,7 @@ You will use it to secure redeem offers</string>
                                     <outlet property="delegate" destination="XuA-NG-iW4" id="rXm-Ye-Z2o"/>
                                 </connections>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnb-bt-tpS" customClass="VSLabel" customModule="Pso_live" customModuleProvider="target">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnb-bt-tpS" customClass="VSLabel" customModule="TakafulVouch" customModuleProvider="target">
                                 <rect key="frame" x="16" y="47" width="3.5" height="14"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="1" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
@@ -640,7 +640,7 @@ You will use it to secure redeem offers</string>
                                     <outlet property="delegate" destination="XuA-NG-iW4" id="Cjs-O0-d7v"/>
                                 </connections>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgN-S5-LAX" customClass="VSLabel" customModule="Pso_live" customModuleProvider="target">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgN-S5-LAX" customClass="VSLabel" customModule="TakafulVouch" customModuleProvider="target">
                                 <rect key="frame" x="16" y="98.5" width="3.5" height="14.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="1" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
@@ -794,7 +794,7 @@ You will use it to secure redeem offers</string>
         <!--Welcome View Controller-->
         <scene sceneID="RM0-Rk-nCz">
             <objects>
-                <viewController storyboardIdentifier="WelcomeViewController1" id="ERl-TD-ndi" customClass="WelcomeViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeViewController1" id="ERl-TD-ndi" customClass="WelcomeViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="plj-a6-exE"/>
                         <viewControllerLayoutGuide type="bottom" id="Wkl-tc-t5c"/>
@@ -933,7 +933,7 @@ Register to try out a free offer before you buy.</string>
         <!--Root View Controller-->
         <scene sceneID="lqU-iy-OMf">
             <objects>
-                <viewController storyboardIdentifier="RootViewController" id="FGK-uI-J9N" customClass="RootViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootViewController" id="FGK-uI-J9N" customClass="RootViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JkU-J4-Uaf"/>
                         <viewControllerLayoutGuide type="bottom" id="PuI-Ad-R5K"/>
@@ -1086,7 +1086,7 @@ Register to try out a free offer before you buy.</string>
         <!--Countries-->
         <scene sceneID="8pl-FO-2eQ">
             <objects>
-                <viewController storyboardIdentifier="NormalViewController" id="QeW-NV-BcX" customClass="SearchViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NormalViewController" id="QeW-NV-BcX" customClass="SearchViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nbO-3V-9aR"/>
                         <viewControllerLayoutGuide type="bottom" id="Jg5-1p-x2c"/>
@@ -1099,7 +1099,7 @@ Register to try out a free offer before you buy.</string>
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="Jsa-X5-ECI" style="IBUITableViewCellStyleDefault" id="koV-TZ-1qD" customClass="SearchTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="Jsa-X5-ECI" style="IBUITableViewCellStyleDefault" id="koV-TZ-1qD" customClass="SearchTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="koV-TZ-1qD" id="K0O-Pj-5CZ">
@@ -1139,13 +1139,13 @@ Register to try out a free offer before you buy.</string>
         <!--Alternate Table View Controller-->
         <scene sceneID="RRa-4c-4v0">
             <objects>
-                <tableViewController storyboardIdentifier="aTV" id="PHs-y2-UGW" customClass="AlternateTableViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="aTV" id="PHs-y2-UGW" customClass="AlternateTableViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="130" sectionHeaderHeight="22" sectionFooterHeight="22" id="eoh-M6-uSx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LargeCell" rowHeight="130" id="dke-rC-tg1" customClass="AlternateTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LargeCell" rowHeight="130" id="dke-rC-tg1" customClass="AlternateTableViewCell" customModule="TakafulVouch" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="130"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dke-rC-tg1" id="Ud0-V2-Y0o">
@@ -1197,7 +1197,7 @@ Register to try out a free offer before you buy.</string>
         <!--Tutorial Page View Controller-->
         <scene sceneID="Ikc-fx-Mgt">
             <objects>
-                <pageViewController storyboardIdentifier="TutorialPageViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="32J-am-Caj" customClass="TutorialPageViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="TutorialPageViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="32J-am-Caj" customClass="TutorialPageViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XcI-gM-bv2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3016.8000000000002" y="-839.73013493253382"/>
@@ -1445,7 +1445,7 @@ Register to try out a free offer before you buy.</string>
         <!--Tutorial View Controller-->
         <scene sceneID="BUF-ly-fCH">
             <objects>
-                <viewController storyboardIdentifier="TutorialViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6x1-o9-06d" customClass="TutorialViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TutorialViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6x1-o9-06d" customClass="TutorialViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C9A-2X-uCo"/>
                         <viewControllerLayoutGuide type="bottom" id="gER-Yf-ci2"/>
@@ -1553,7 +1553,7 @@ Register to try out a free offer before you buy.</string>
         <!--Loader View Controller-->
         <scene sceneID="Stl-R1-rTj">
             <objects>
-                <viewController storyboardIdentifier="LoaderViewController" id="lSM-30-ifE" customClass="LoaderViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoaderViewController" id="lSM-30-ifE" customClass="LoaderViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sl7-sG-DTC"/>
                         <viewControllerLayoutGuide type="bottom" id="GhX-bR-Gqp"/>
@@ -1621,7 +1621,7 @@ Register to try out a free offer before you buy.</string>
         <!--Welcome View Controller-->
         <scene sceneID="DQ5-5n-0uT">
             <objects>
-                <viewController storyboardIdentifier="WelcomeViewController" id="oJi-AI-sXZ" customClass="WelcomeViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeViewController" id="oJi-AI-sXZ" customClass="WelcomeViewController" customModule="TakafulVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aBr-wx-K4T"/>
                         <viewControllerLayoutGuide type="bottom" id="MBS-3G-ttn"/>
@@ -1778,7 +1778,7 @@ Register to try out a free offer before you buy.</string>
     </scenes>
     <resources>
         <image name="PINBox" width="41.5" height="42"/>
-        <image name="adamjee_Logo" width="323.5" height="162.5"/>
+        <image name="adamjee_Logo" width="215.66667175292969" height="108.33333587646484"/>
         <image name="back" width="8" height="15.5"/>
         <image name="background1" width="375" height="667"/>
         <image name="cross" width="24" height="24"/>
